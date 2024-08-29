@@ -1,7 +1,7 @@
 # News
 
 - <span class="style_highlight">**[2024.07]**</span>
-InternLM2.5-7B series is released, ranking 1st on the [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) (under 10B scale). Check out the [model zoo](https://github.com/InternLM/InternLM?tab=readme-ov-file#model-zoo).
+InternLM2.5-7B is released, ranking 1st on the [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) (under 10B scale). Check out the [model zoo](https://github.com/InternLM/InternLM?tab=readme-ov-file#model-zoo).
 
 - <span class="style_highlight">**[2024.07]**</span>
 We released [RTMW](#pub-rtmw), the newest addition to [RTMPose](https://github.com/open-mmlab/mmpose/tree/main/projects/rtmpose) series, which specializes in predicting whole-body 2D and 3D keypoints simultaneously in realtime.
