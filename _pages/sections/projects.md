@@ -33,7 +33,8 @@ Provide high-performance human pose estimation models including RTMPose, RTMO an
 <div><img src='images/agentlego_logo.png' alt="sym" width="100%" box-shadow=none></div></div>
 <div class='paper-box-text' markdown="1">
 
-[AgentLego](https://github.com/agentlego)
+[AgentLego](https://github.com/InternLM/agentlego)
+<img src="https://img.shields.io/github/stars/InternLM/agentlego?style=social">
 
 An open-source library of tool APIs to extend and enhance large language model (LLM) based agents.
 
