@@ -1,5 +1,53 @@
 # Publications
 
+<!-- MotionBooth -->
+<div class='paper-box' id="#pub-motionbooth"><div class='paper-box-image'>
+<div><div class="badge">NeurIPS 2024</div><img src='images/motionbooth.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MotionBooth: Motion-Aware Customized Text-to-Video Generation](https://arxiv.org/abs/2406.17758)
+
+Jianzong Wu, Xiangtai Li, Yanhong Zeng, Jiangning Zhang, Qianyu Zhou, Yining Li, Yunhai Tong, Kai Chen
+
+***NeurIPS, 2024 (Spotlight)***<br>
+[Project](https://jianzongwu.github.io/projects/motionbooth/) $$|$$ [Code](https://github.com/jianzongwu/MotionBooth) $$|$$ [Demo](https://www.youtube.com/watch?v=iuH5iqLk5VQ)
+
+</div>
+</div>
+
+<!-- ADC -->
+<div class='paper-box' id='#pub-adc'><div class='paper-box-image'>
+<div><div class="badge">NeurIPS 2024</div><img src='images/adc_llm_jailbreak.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Efficient LLM Jailbreak via Adaptive Dense-to-sparse Constrained Optimization](https://arxiv.org/abs/2405.09113)
+
+Kai Hu, Weichen Yu, Tianjun Yao, Xiang Li, Wenhe Liu, Lijun Yu, Yining Li, Kai Chen, Zhiqiang Shen, Matt Fredrikson
+
+***NeurIPS, 2024***<br>
+[Arxiv](https://arxiv.org/abs/2405.09113)
+
+</div>
+</div>
+
+<!-- XComposer2-4kHD -->
+<div class='paper-box' id='pub-xcomposer2-4khd'><div class='paper-box-image'>
+<div><div class="badge">Technical Report</div><img src='images/xcomposer2-4khd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Internlm-xcomposer2-4khd: A pioneering large vision-language model handling resolutions from 336 pixels to 4k hd](https://arxiv.org/pdf/2404.06512)
+
+<details>
+    <summary> Full author list </summary>
+    <p>Xiaoyi Dong, Pan Zhang, Yuhang Zang, Yuhang Cao, Bin Wang, Linke Ouyang, Songyang Zhang, Haodong Duan, Wenwei Zhang, Yining Li, Hang Yan, Yang Gao, Zhe Chen, Xinyue Zhang, Wei Li, Jingwen Li, Wenhai Wang, Kai Chen, Conghui He, Xingcheng Zhang, Jifeng Dai, Yu Qiao, Dahua Lin, Jiaqi Wang</p>
+</details>
+
+***Arxiv, 2024***<br>
+[Project](https://github.com/InternLM/InternLM-XComposer) $$|$$ [HuggingFace](https://huggingface.co/internlm/internlm-xcomposer2-4khd-7b) $$|$$ [ArXiv](https://arxiv.org/pdf/2404.06512)
+
+</div>
+</div>
+
 <!-- InternLM2 -->
 <div class='paper-box' id="#pub-internlm2"><div class='paper-box-image'>
 <div><div class="badge">Technical Report</div><img src='images/internlm.png' alt="sym" width="100%"></div></div>
