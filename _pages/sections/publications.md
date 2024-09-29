@@ -1,7 +1,7 @@
 # Publications
 
 <!-- MotionBooth -->
-<div class='paper-box' id="#pub-motionbooth"><div class='paper-box-image'>
+<div class='paper-box' id="pub-motionbooth"><div class='paper-box-image'>
 <div><div class="badge">NeurIPS 2024</div><img src='images/motionbooth.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -16,7 +16,7 @@ Jianzong Wu, Xiangtai Li, Yanhong Zeng, Jiangning Zhang, Qianyu Zhou, Yining Li,
 </div>
 
 <!-- ADC -->
-<div class='paper-box' id='#pub-adc'><div class='paper-box-image'>
+<div class='paper-box' id='pub-adc'><div class='paper-box-image'>
 <div><div class="badge">NeurIPS 2024</div><img src='images/adc_llm_jailbreak.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -32,7 +32,7 @@ Kai Hu, Weichen Yu, Tianjun Yao, Xiang Li, Wenhe Liu, Lijun Yu, Yining Li, Kai C
 
 <!-- XComposer2-4kHD -->
 <div class='paper-box' id='pub-xcomposer2-4khd'><div class='paper-box-image'>
-<div><div class="badge">Technical Report</div><img src='images/xcomposer2-4khd.png' alt="sym" width="100%"></div></div>
+<div><div class="badge">NeurIPS</div><img src='images/xcomposer2-4khd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Internlm-xcomposer2-4khd: A pioneering large vision-language model handling resolutions from 336 pixels to 4k hd](https://arxiv.org/pdf/2404.06512)
@@ -42,7 +42,7 @@ Kai Hu, Weichen Yu, Tianjun Yao, Xiang Li, Wenhe Liu, Lijun Yu, Yining Li, Kai C
     <p>Xiaoyi Dong, Pan Zhang, Yuhang Zang, Yuhang Cao, Bin Wang, Linke Ouyang, Songyang Zhang, Haodong Duan, Wenwei Zhang, Yining Li, Hang Yan, Yang Gao, Zhe Chen, Xinyue Zhang, Wei Li, Jingwen Li, Wenhai Wang, Kai Chen, Conghui He, Xingcheng Zhang, Jifeng Dai, Yu Qiao, Dahua Lin, Jiaqi Wang</p>
 </details>
 
-***Arxiv, 2024***<br>
+***NeurIPS, 2024***<br>
 [Project](https://github.com/InternLM/InternLM-XComposer) $$|$$ [HuggingFace](https://huggingface.co/internlm/internlm-xcomposer2-4khd-7b) $$|$$ [ArXiv](https://arxiv.org/pdf/2404.06512)
 
 </div>
@@ -85,15 +85,15 @@ Kai Hu, Weichen Yu, Tianjun Yao, Xiang Li, Wenhe Liu, Lijun Yu, Yining Li, Kai C
 </div>
 
 <!-- GTA -->
-<div class='paper-box'><div class='paper-box-image'>
-<div><div class="badge">Arxiv</div><img src='images/GTA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box' id='pub-gta'><div class='paper-box-image'>
+<div><div class="badge">NeurIPS</div><img src='images/GTA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [GTA: A Benchmark for General Tool Agents](https://arxiv.org/pdf/2407.08713)
 
 Jize Wang, Zerun Ma, Yining Li, Songyang Zhang, Cailian Chen, Kai Chen, Xinyi Le
 
-***Arxiv, 2024***<br>
+***NeurIPS, 2024 (Track Datasets and Benchmarks)***<br>
 [Project](https://open-compass.github.io/GTA/) $$|$$ [Code](https://github.com/open-compass/GTA) $$|$$ [ArXiv](https://arxiv.org/pdf/2407.08713) $$|$$ [Dataset](https://github.com/open-compass/GTA/releases/download/v0.1.0/gta_dataset.zip)
 
 </div>
