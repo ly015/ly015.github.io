@@ -2,7 +2,7 @@
 
 <!-- MotionBooth -->
 <div class='paper-box' id="pub-motionbooth"><div class='paper-box-image'>
-<div><div class="badge">NeurIPS 2024</div><img src='images/motionbooth.gif' alt="sym" width="100%"></div></div>
+<div><div class="badge">NeurIPS</div><img src='images/motionbooth.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MotionBooth: Motion-Aware Customized Text-to-Video Generation](https://arxiv.org/abs/2406.17758)
@@ -17,7 +17,7 @@ Jianzong Wu, Xiangtai Li, Yanhong Zeng, Jiangning Zhang, Qianyu Zhou, Yining Li,
 
 <!-- ADC -->
 <div class='paper-box' id='pub-adc'><div class='paper-box-image'>
-<div><div class="badge">NeurIPS 2024</div><img src='images/adc_llm_jailbreak.png' alt="sym" width="100%"></div></div>
+<div><div class="badge">NeurIPS</div><img src='images/adc_llm_jailbreak.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Efficient LLM Jailbreak via Adaptive Dense-to-sparse Constrained Optimization](https://arxiv.org/abs/2405.09113)
