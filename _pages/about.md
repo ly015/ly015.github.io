@@ -14,7 +14,7 @@ Before joining Shanghai AI Laboratory, I was a research scientist at [SenseTime]
 I received my Ph.D. degree from [MMLab](https://mmlab.ie.cuhk.edu.hk/), [The Chinese University of Hong Kong](https://www.cuhk.edu.hk) in 2019, superviesd by Prof. [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/) and Prof. [Xiaoou Tang](https://scholar.google.com/citations?user=qpBtpGsAAAAJ). Earlier I received my B.S. degree from [Tsinghua University](https://www.tsinghua.edu.cn) in 2014.
 
 <span style="color:#ee5f5b"> <font size="+1"> <b> Recruiting! </b></font></span><br>
-We have opening positions for full-time reasearchers, interns and joint PhD students. Please [drop me an email](mailto:liyining@pjlab.org.cn) if you are interested.
+We have opening positions for full-time researchers, interns and joint PhD students. Please [drop me an email](mailto:liyining@pjlab.org.cn) if you are interested.
 {: .notice--info}
 
 {% include_relative sections/news.md %}
