@@ -32,4 +32,6 @@ I am a research scientist at [Shanghai Artificial Intelligence Laboratory](https
 
 I work on large language models and agentic systems. I am a member of the [Intern Large Models](https://huggingface.co/internlm) team, where we develop foundation models and agentic systems to accelerate scientific discovery. With a background in computer vision, I was a core member of [OpenMMLab](https://github.com/open-mmlab) and led the development of [MMPose](https://github.com/open-mmlab/mmpose).
 
+<div class="clearfix"></div>
+
 <b style="color:#b71c1c">Recruiting:</b> We have opening positions for research interns and full-time researchers working on LLM training and infra. I am also looking for Ph.D. students (in collaboration with SJTU). Please drop me an [email](mailto:liyining@pjlab.org.cn) if you are interested.
