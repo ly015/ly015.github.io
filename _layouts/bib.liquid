@@ -47,6 +47,27 @@
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+    <!-- Topic Tag -->
+    {% if entry.topic %}
+      {% assign topic_url = nil %}
+      {% if entry.topic == 'llm' %}
+        {% assign topic_label = 'LLM/VLM' %}
+        {% comment %} {% assign topic_url = '/projects/#Attack' %} {% endcomment %}
+      {% elsif entry.topic == 'agent' %}
+        {% assign topic_label = 'Agent' %}
+      {% elsif entry.topic == 'cv' %}
+        {% assign topic_label = 'Vision & Multimodality' %}
+      {% else %}
+        {% assign topic_label = entry.topic %}
+      {% endif %}
+      <div class="topic-tags">
+        {% if topic_url != blank %}
+          <a href="{{ topic_url }}" class="topic-tag">{{ topic_label }}</a>
+        {% else %}
+          <span class="topic-tag">{{ topic_label }}</span>
+        {% endif %}
+      </div>
+    {% endif %}
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
