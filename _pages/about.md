@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Scientist, Shanghai AI Lab 
+subtitle: Research Scientist, Shanghai AI Lab
 
 profile:
   align: right
@@ -23,7 +23,7 @@ announcements:
   limit: 10 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: false 
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -34,4 +34,5 @@ I work on large language models and agentic systems. I am a member of the [Inter
 
 <div class="clearfix"></div>
 
-<b style="color:#b71c1c">Recruiting:</b> We have opening positions for research interns and full-time researchers working on LLM training and infra. I am also looking for Ph.D. students (in collaboration with SJTU). Please drop me an [email](mailto:liyining@pjlab.org.cn) if you are interested.
+<span style="display:inline-block; background-color:#b85042; color:#ffffff; font-weight:700; padding:0.12em 0.4em; border-radius:0.25em; letter-spacing:0.02em;">Hiring</span> We have openings for research interns and full-time researchers in LLM training and infrastructure. I am also looking for Ph.D. students (in collaboration with SJTU). Feel free to [email me](mailto:liyining@pjlab.org.cn) if you are interested.
+
