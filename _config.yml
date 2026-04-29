@@ -29,10 +29,10 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 
 # site color theme: default, tokyo-night, catppuccin-mocha, everforest
-# color_theme: default
+color_theme: default
 # color_theme: catppuccin-mocha
 # color_theme: tokyo-night
-color_theme: everforest
+# color_theme: everforest
 
 # repo color theme
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
