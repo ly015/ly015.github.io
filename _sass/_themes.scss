@@ -247,6 +247,328 @@ html[data-color-theme="everforest"][data-theme="dark"] {
   --global-newsletter-text-color: #d3c6aa;
 }
 
+/* Warm Academic
+ * Cream pages, deep-navy text, muted burgundy accent.
+ * Library books and leather-bound journals; gravitas without being cold.
+ */
+html[data-color-theme="warm-academic"] {
+  --global-bg-color: #f5f1e8;
+  --global-code-bg-color: #e8e2d2;
+  --global-text-color: #1b2845;
+  --global-text-color-light: #5a6178;
+  --global-theme-color: #8b2635;
+  --global-hover-color: #6b1d2a;
+  --global-hover-text-color: #f5f1e8;
+  --global-footer-bg-color: #1b2845;
+  --global-footer-text-color: #f5f1e8;
+  --global-footer-link-color: #{v.$white-color};
+  --global-distill-app-color: #5a6178;
+  --global-divider-color: #d8d0ba;
+  --global-card-bg-color: #ede7d9;
+  --global-highlight-color: #8b2635;
+  --global-back-to-top-bg-color: rgba(27, 40, 69, 0.45);
+  --global-back-to-top-text-color: #f5f1e8;
+  --global-newsletter-bg-color: #ede7d9;
+  --global-newsletter-text-color: #1b2845;
+}
+
+html[data-color-theme="warm-academic"][data-theme="dark"] {
+  --global-bg-color: #1b2030;
+  --global-code-bg-color: #161a26;
+  --global-text-color: #e8e0d0;
+  --global-text-color-light: #a89f8a;
+  --global-theme-color: #c45a6a;
+  --global-hover-color: #d87884;
+  --global-hover-text-color: #1b2030;
+  --global-footer-bg-color: #161a26;
+  --global-footer-text-color: #a89f8a;
+  --global-footer-link-color: #e8e0d0;
+  --global-distill-app-color: #a89f8a;
+  --global-divider-color: #3a4055;
+  --global-card-bg-color: #252b3b;
+  --global-highlight-color: #c45a6a;
+  --global-back-to-top-bg-color: rgba(232, 224, 208, 0.5);
+  --global-back-to-top-text-color: #1b2030;
+  --global-newsletter-bg-color: #252b3b;
+  --global-newsletter-text-color: #e8e0d0;
+}
+
+/* Modern Scholar
+ * Soft warm white, charcoal text, single sage accent.
+ * The "tasteful personal site" look; pairs beautifully with serif typography.
+ */
+html[data-color-theme="modern-scholar"] {
+  --global-bg-color: #faf7f2;
+  --global-code-bg-color: #ede8dd;
+  --global-text-color: #2a2a2a;
+  --global-text-color-light: #5c5c5c;
+  --global-theme-color: #6b7f5c;
+  --global-hover-color: #4f6342;
+  --global-hover-text-color: #faf7f2;
+  --global-footer-bg-color: #2a2a2a;
+  --global-footer-text-color: #faf7f2;
+  --global-footer-link-color: #{v.$white-color};
+  --global-distill-app-color: #5c5c5c;
+  --global-divider-color: #e0dbd0;
+  --global-card-bg-color: #f2eee6;
+  --global-highlight-color: #6b7f5c;
+  --global-back-to-top-bg-color: rgba(42, 42, 42, 0.45);
+  --global-back-to-top-text-color: #faf7f2;
+  --global-newsletter-bg-color: #f2eee6;
+  --global-newsletter-text-color: #2a2a2a;
+}
+
+html[data-color-theme="modern-scholar"][data-theme="dark"] {
+  --global-bg-color: #1f1f1d;
+  --global-code-bg-color: #16161a;
+  --global-text-color: #e8e4de;
+  --global-text-color-light: #a8a8a4;
+  --global-theme-color: #9db088;
+  --global-hover-color: #b8c9a8;
+  --global-hover-text-color: #1f1f1d;
+  --global-footer-bg-color: #16161a;
+  --global-footer-text-color: #a8a8a4;
+  --global-footer-link-color: #e8e4de;
+  --global-distill-app-color: #a8a8a4;
+  --global-divider-color: #3f3f3d;
+  --global-card-bg-color: #2a2a28;
+  --global-highlight-color: #9db088;
+  --global-back-to-top-bg-color: rgba(232, 228, 222, 0.5);
+  --global-back-to-top-text-color: #1f1f1d;
+  --global-newsletter-bg-color: #2a2a28;
+  --global-newsletter-text-color: #e8e4de;
+}
+
+/* Terminal Minimalism
+ * Near-black canvas, light gray body, single bright-green accent.
+ * Signals the technical side clearly; works for code-heavy writing.
+ */
+html[data-color-theme="terminal-minimalism"] {
+  --global-bg-color: #f4f6f8;
+  --global-code-bg-color: #dde2e7;
+  --global-text-color: #0d1117;
+  --global-text-color-light: #4a5662;
+  --global-theme-color: #008558;
+  --global-hover-color: #00a86b;
+  --global-hover-text-color: #f4f6f8;
+  --global-footer-bg-color: #0d1117;
+  --global-footer-text-color: #c9d1d9;
+  --global-footer-link-color: #{v.$white-color};
+  --global-distill-app-color: #4a5662;
+  --global-divider-color: #d0d5db;
+  --global-card-bg-color: #eaedf0;
+  --global-highlight-color: #008558;
+  --global-back-to-top-bg-color: rgba(13, 17, 23, 0.45);
+  --global-back-to-top-text-color: #f4f6f8;
+  --global-newsletter-bg-color: #eaedf0;
+  --global-newsletter-text-color: #0d1117;
+}
+
+html[data-color-theme="terminal-minimalism"][data-theme="dark"] {
+  --global-bg-color: #0d1117;
+  --global-code-bg-color: #010409;
+  --global-text-color: #c9d1d9;
+  --global-text-color-light: #8b949e;
+  --global-theme-color: #00ff9c;
+  --global-hover-color: #00cc7d;
+  --global-hover-text-color: #0d1117;
+  --global-footer-bg-color: #010409;
+  --global-footer-text-color: #8b949e;
+  --global-footer-link-color: #c9d1d9;
+  --global-distill-app-color: #8b949e;
+  --global-divider-color: #30363d;
+  --global-card-bg-color: #161b22;
+  --global-highlight-color: #00ff9c;
+  --global-back-to-top-bg-color: rgba(201, 209, 217, 0.5);
+  --global-back-to-top-text-color: #0d1117;
+  --global-newsletter-bg-color: #161b22;
+  --global-newsletter-text-color: #c9d1d9;
+}
+
+/* Paper & Ink
+ * Pure white, true black, saturated cobalt accent (vermilion as highlight).
+ * Inspired by Edward Tufte and academic publishing; confident and timeless.
+ */
+html[data-color-theme="paper-ink"] {
+  --global-bg-color: #{v.$white-color};
+  --global-code-bg-color: #f0f0f0;
+  --global-text-color: #{v.$black-color};
+  --global-text-color-light: #555555;
+  --global-theme-color: #0033cc;
+  --global-hover-color: #001f80;
+  --global-hover-text-color: #{v.$white-color};
+  --global-footer-bg-color: #{v.$black-color};
+  --global-footer-text-color: #{v.$white-color};
+  --global-footer-link-color: #{v.$white-color};
+  --global-distill-app-color: #555555;
+  --global-divider-color: #e0e0e0;
+  --global-card-bg-color: #f8f8f8;
+  --global-highlight-color: #d62828;
+  --global-back-to-top-bg-color: rgba(0, 0, 0, 0.45);
+  --global-back-to-top-text-color: #{v.$white-color};
+  --global-newsletter-bg-color: #f8f8f8;
+  --global-newsletter-text-color: #{v.$black-color};
+}
+
+html[data-color-theme="paper-ink"][data-theme="dark"] {
+  --global-bg-color: #0a0a0a;
+  --global-code-bg-color: #1f1f1f;
+  --global-text-color: #{v.$white-color};
+  --global-text-color-light: #a0a0a0;
+  --global-theme-color: #5a87ff;
+  --global-hover-color: #8ab0ff;
+  --global-hover-text-color: #0a0a0a;
+  --global-footer-bg-color: #1f1f1f;
+  --global-footer-text-color: #a0a0a0;
+  --global-footer-link-color: #{v.$white-color};
+  --global-distill-app-color: #a0a0a0;
+  --global-divider-color: #303030;
+  --global-card-bg-color: #161616;
+  --global-highlight-color: #ff6b6b;
+  --global-back-to-top-bg-color: rgba(255, 255, 255, 0.5);
+  --global-back-to-top-text-color: #0a0a0a;
+  --global-newsletter-bg-color: #161616;
+  --global-newsletter-text-color: #{v.$white-color};
+}
+
+/* Solarized
+ * Warm beige (base3) and desaturated navy (base02) with the canonical Solarized
+ * cyan accent. Quietly nerdy; familiar to anyone in tech.
+ */
+html[data-color-theme="solarized"] {
+  --global-bg-color: #fdf6e3;
+  --global-code-bg-color: #eee8d5;
+  --global-text-color: #073642;
+  --global-text-color-light: #586e75;
+  --global-theme-color: #1c8b82;
+  --global-hover-color: #b8276f;
+  --global-hover-text-color: #fdf6e3;
+  --global-footer-bg-color: #073642;
+  --global-footer-text-color: #fdf6e3;
+  --global-footer-link-color: #fdf6e3;
+  --global-distill-app-color: #586e75;
+  --global-divider-color: #ded8c5;
+  --global-card-bg-color: #eee8d5;
+  --global-highlight-color: #b8276f;
+  --global-back-to-top-bg-color: rgba(7, 54, 66, 0.45);
+  --global-back-to-top-text-color: #fdf6e3;
+  --global-newsletter-bg-color: #eee8d5;
+  --global-newsletter-text-color: #073642;
+}
+
+html[data-color-theme="solarized"][data-theme="dark"] {
+  --global-bg-color: #002b36;
+  --global-code-bg-color: #073642;
+  --global-text-color: #839496;
+  --global-text-color-light: #586e75;
+  --global-theme-color: #2aa198;
+  --global-hover-color: #d33682;
+  --global-hover-text-color: #002b36;
+  --global-footer-bg-color: #073642;
+  --global-footer-text-color: #839496;
+  --global-footer-link-color: #93a1a1;
+  --global-distill-app-color: #586e75;
+  --global-divider-color: #073642;
+  --global-card-bg-color: #073642;
+  --global-highlight-color: #d33682;
+  --global-back-to-top-bg-color: rgba(131, 148, 150, 0.5);
+  --global-back-to-top-text-color: #002b36;
+  --global-newsletter-bg-color: #073642;
+  --global-newsletter-text-color: #93a1a1;
+}
+
+/* Dusk
+ * Deep slate with warm off-white text and a muted-gold accent.
+ * Sophisticated dark mode that doesn't feel like a generic developer template.
+ */
+html[data-color-theme="dusk"] {
+  --global-bg-color: #f5f2eb;
+  --global-code-bg-color: #e0dcce;
+  --global-text-color: #1e2832;
+  --global-text-color-light: #5a6678;
+  --global-theme-color: #a88840;
+  --global-hover-color: #8c7030;
+  --global-hover-text-color: #f5f2eb;
+  --global-footer-bg-color: #1e2832;
+  --global-footer-text-color: #e8e4d8;
+  --global-footer-link-color: #{v.$white-color};
+  --global-distill-app-color: #5a6678;
+  --global-divider-color: #d5d0bf;
+  --global-card-bg-color: #ebe7dd;
+  --global-highlight-color: #a88840;
+  --global-back-to-top-bg-color: rgba(30, 40, 50, 0.45);
+  --global-back-to-top-text-color: #f5f2eb;
+  --global-newsletter-bg-color: #ebe7dd;
+  --global-newsletter-text-color: #1e2832;
+}
+
+html[data-color-theme="dusk"][data-theme="dark"] {
+  --global-bg-color: #1e2832;
+  --global-code-bg-color: #161e26;
+  --global-text-color: #e8e4d8;
+  --global-text-color-light: #9aa5b1;
+  --global-theme-color: #c9a961;
+  --global-hover-color: #e0bd7a;
+  --global-hover-text-color: #1e2832;
+  --global-footer-bg-color: #161e26;
+  --global-footer-text-color: #9aa5b1;
+  --global-footer-link-color: #e8e4d8;
+  --global-distill-app-color: #9aa5b1;
+  --global-divider-color: #3a4754;
+  --global-card-bg-color: #2a3441;
+  --global-highlight-color: #c9a961;
+  --global-back-to-top-bg-color: rgba(232, 228, 216, 0.5);
+  --global-back-to-top-text-color: #1e2832;
+  --global-newsletter-bg-color: #2a3441;
+  --global-newsletter-text-color: #e8e4d8;
+}
+
+/* Botanical Tech
+ * Cream, forest green primary, rust/terracotta accent.
+ * Distinctive; like someone who reads both papers and poetry.
+ */
+html[data-color-theme="botanical-tech"] {
+  --global-bg-color: #f4f1ea;
+  --global-code-bg-color: #e0dcce;
+  --global-text-color: #2d4a3e;
+  --global-text-color-light: #5c7368;
+  --global-theme-color: #b86948;
+  --global-hover-color: #9a4f30;
+  --global-hover-text-color: #f4f1ea;
+  --global-footer-bg-color: #2d4a3e;
+  --global-footer-text-color: #f4f1ea;
+  --global-footer-link-color: #{v.$white-color};
+  --global-distill-app-color: #5c7368;
+  --global-divider-color: #d5d0c0;
+  --global-card-bg-color: #ebe7dd;
+  --global-highlight-color: #b86948;
+  --global-back-to-top-bg-color: rgba(45, 74, 62, 0.45);
+  --global-back-to-top-text-color: #f4f1ea;
+  --global-newsletter-bg-color: #ebe7dd;
+  --global-newsletter-text-color: #2d4a3e;
+}
+
+html[data-color-theme="botanical-tech"][data-theme="dark"] {
+  --global-bg-color: #1f2a26;
+  --global-code-bg-color: #131c19;
+  --global-text-color: #e0dcd2;
+  --global-text-color-light: #93a19a;
+  --global-theme-color: #d88a6a;
+  --global-hover-color: #e8a085;
+  --global-hover-text-color: #1f2a26;
+  --global-footer-bg-color: #131c19;
+  --global-footer-text-color: #93a19a;
+  --global-footer-link-color: #e0dcd2;
+  --global-distill-app-color: #93a19a;
+  --global-divider-color: #3d4f49;
+  --global-card-bg-color: #2a3833;
+  --global-highlight-color: #d88a6a;
+  --global-back-to-top-bg-color: rgba(224, 220, 210, 0.5);
+  --global-back-to-top-text-color: #1f2a26;
+  --global-newsletter-bg-color: #2a3833;
+  --global-newsletter-text-color: #e0dcd2;
+}
+
 html[data-theme-setting="dark"] {
   #light-toggle-system {
     display: none;

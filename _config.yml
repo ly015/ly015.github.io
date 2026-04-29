@@ -28,11 +28,22 @@ back_to_top: true # set to false to disable the back to top button
 # Theme
 # -----------------------------------------------------------------------------
 
-# site color theme: default, tokyo-night, catppuccin-mocha, everforest
-color_theme: default
+# site color theme. Each theme has both a light and a dark variant; the
+# sun/moon toggle still flips light/dark within the chosen palette.
+# Available: default, tokyo-night, catppuccin-mocha, everforest,
+#            warm-academic, modern-scholar, terminal-minimalism, paper-ink,
+#            solarized, dusk, botanical-tech
+# color_theme: default
 # color_theme: catppuccin-mocha
 # color_theme: tokyo-night
 # color_theme: everforest
+# color_theme: warm-academic     # cream + deep-navy text, burgundy accent
+# color_theme: modern-scholar    # warm white + charcoal, sage accent
+# color_theme: terminal-minimalism # near-black + light gray, bright-green accent
+# color_theme: paper-ink         # pure white + true black, cobalt accent
+# color_theme: solarized         # base3 + base02, canonical Solarized cyan
+color_theme: dusk              # deep slate + warm off-white, muted gold
+# color_theme: botanical-tech    # cream + forest green, rust accent
 
 # repo color theme
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
