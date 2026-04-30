@@ -469,6 +469,11 @@ ninja.data = [{
           description: "OpenMMLab Pose Estimation Toolbox and Benchmark",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mmpose/";
+            },},{id: "projects-trex",
+          title: 'TREX',
+          description: "Automating LLM fine-tuning via agent-driven tree-based exploration",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/trex/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
