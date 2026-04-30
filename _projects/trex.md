@@ -10,10 +10,6 @@ visible: true
 
 [TREX](https://github.com/trex-project) is a multi-agent system that automates end-to-end LLM fine-tuning by modelling iterative experiments as tree-based search over a Researcher + Executor agent loop. The system treats the fine-tuning process as a structured exploration problem, enabling autonomous hypothesis generation, experiment execution, and result-driven refinement without human intervention. The work is described in an arXiv preprint, 2026: "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration."
 
-I led the TREX project, designing the multi-agent framework and overall research direction alongside collaborators at Shanghai AI Laboratory. As the senior author, I was responsible for the core system architecture, the tree-based exploration formulation, and coordinating the development of the companion open-source components AIDP and FT-Bench.
-
-The paper is co-authored with Zerun Ma, Guoqiang Wang, Xinchen Xie, Yicheng Chen, He Du, Bowen Li, Yanan Sun, Wenran Liu, and Kai Chen.
-
 <div class="row mt-3">
     <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/trex-hero.png" title="TREX system overview" class="img-fluid rounded z-depth-1" %}
@@ -28,9 +24,6 @@ The paper is co-authored with Zerun Ma, Guoqiang Wang, Xinchen Xie, Yicheng Chen
 - **Tree-based exploration.** TREX formulates the fine-tuning search space as a tree, applying MCTS-style search over the history of past experiments to guide the next hypothesis — enabling systematic, non-redundant exploration.
 - **Researcher + Executor agent split.** A Researcher agent proposes experimental hypotheses and configurations; an Executor agent carries them out end-to-end, returning structured results that feed back into the tree.
 - **Full fine-tuning workflow automation.** The system covers the complete pipeline from data preparation and training configuration through evaluation, removing the need for manual iteration at any stage.
-- **Open-source companion components.** AIDP (AI Data Processor) and FT-Bench are released as standalone open-source tools, providing the data-processing and benchmarking infrastructure that TREX builds on.
-- **Agent system being prepared for open release.** The TREX agent code is not yet publicly available; it is being prepared for open release as a follow-up to the preprint.
-
 ---
 
 ## TREX Agent System
