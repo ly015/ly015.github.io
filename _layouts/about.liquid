@@ -42,6 +42,7 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
+      <hr>
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
@@ -50,6 +51,7 @@ layout: default
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
+      <hr>
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
@@ -58,6 +60,7 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
+      <hr>
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
@@ -66,6 +69,7 @@ layout: default
 
     <!-- Social -->
     {% if page.social %}
+      <hr>
       <div class="social">
         <div class="contact-icons">{% social_links %}</div>
 
@@ -74,6 +78,7 @@ layout: default
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      <hr>
       {% include newsletter.liquid center=true %}
     {% endif %}
   </article>

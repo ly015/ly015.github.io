@@ -1,0 +1,123 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link "Yining Li" [ref=e4] [cursor=pointer]:
+          - /url: /
+        - button "Toggle navigation" [ref=e5] [cursor=pointer]:
+          - generic [ref=e6]: Toggle navigation
+        - text:  
+    - progressbar [ref=e10]
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - heading "Projects" [level=1] [ref=e14]
+        - paragraph [ref=e15]: A growing collection of your cool projects.
+      - article [ref=e16]:
+        - generic [ref=e17]:
+          - link "work" [ref=e18] [cursor=pointer]:
+            - /url: .#work
+            - heading "work" [level=2] [ref=e19]
+          - generic [ref=e20]:
+            - link "MMPose OpenMMLab Pose Estimation Toolbox and Benchmark" [ref=e22] [cursor=pointer]:
+              - /url: /projects/mmpose/
+              - generic [ref=e23]:
+                - figure [ref=e24]:
+                  - img "project thumbnail" [ref=e26]
+                - generic [ref=e27]:
+                  - heading "MMPose" [level=2] [ref=e28]
+                  - paragraph [ref=e29]: OpenMMLab Pose Estimation Toolbox and Benchmark
+            - link "project 1 with background image" [ref=e31] [cursor=pointer]:
+              - /url: /projects/1_project/
+              - generic [ref=e32]:
+                - figure [ref=e33]:
+                  - img "project thumbnail" [ref=e35]
+                - generic [ref=e36]:
+                  - heading "project 1" [level=2] [ref=e37]
+                  - paragraph [ref=e38]: with background image
+            - link "project 7 with background image" [ref=e40] [cursor=pointer]:
+              - /url: /projects/7_project/
+              - generic [ref=e41]:
+                - figure [ref=e42]:
+                  - img "project thumbnail" [ref=e44]
+                - generic [ref=e45]:
+                  - heading "project 7" [level=2] [ref=e46]
+                  - paragraph [ref=e47]: with background image
+            - link "AgentLego Open-source tool API library to extend and enhance LLM-based agents" [ref=e49] [cursor=pointer]:
+              - /url: /projects/agentlego/
+              - generic [ref=e50]:
+                - figure [ref=e51]:
+                  - img "project thumbnail" [ref=e53]
+                - generic [ref=e54]:
+                  - heading "AgentLego" [level=2] [ref=e55]
+                  - paragraph [ref=e56]: Open-source tool API library to extend and enhance LLM-based agents
+            - link "project 2 a project with a background image and giscus comments" [ref=e58] [cursor=pointer]:
+              - /url: /projects/2_project/
+              - generic [ref=e59]:
+                - figure [ref=e60]:
+                  - img "project thumbnail" [ref=e62]
+                - generic [ref=e63]:
+                  - heading "project 2" [level=2] [ref=e64]
+                  - paragraph [ref=e65]: a project with a background image and giscus comments
+            - link "project 8 an other project with a background image and giscus comments" [ref=e67] [cursor=pointer]:
+              - /url: /projects/8_project/
+              - generic [ref=e68]:
+                - figure [ref=e69]:
+                  - img "project thumbnail" [ref=e71]
+                - generic [ref=e72]:
+                  - heading "project 8" [level=2] [ref=e73]
+                  - paragraph [ref=e74]: an other project with a background image and giscus comments
+            - link "project 3 with very long name a project that redirects to another website" [ref=e76] [cursor=pointer]:
+              - /url: https://unsplash.com
+              - generic [ref=e77]:
+                - figure [ref=e78]:
+                  - img "project thumbnail" [ref=e80]
+                - generic [ref=e81]:
+                  - heading "project 3 with very long name" [level=2] [ref=e82]
+                  - paragraph [ref=e83]: a project that redirects to another website
+          - link "fun" [ref=e84] [cursor=pointer]:
+            - /url: .#fun
+            - heading "fun" [level=2] [ref=e85]
+          - generic [ref=e86]:
+            - link "project 4 another without an image" [ref=e88] [cursor=pointer]:
+              - /url: /projects/4_project/
+              - generic [ref=e90]:
+                - heading "project 4" [level=2] [ref=e91]
+                - paragraph [ref=e92]: another without an image
+            - link "project 5 a project with a background image" [ref=e94] [cursor=pointer]:
+              - /url: /projects/5_project/
+              - generic [ref=e95]:
+                - figure [ref=e96]:
+                  - img "project thumbnail" [ref=e98]
+                - generic [ref=e99]:
+                  - heading "project 5" [level=2] [ref=e100]
+                  - paragraph [ref=e101]: a project with a background image
+            - link "project 6 a project with no image" [ref=e103] [cursor=pointer]:
+              - /url: /projects/6_project/
+              - generic [ref=e105]:
+                - heading "project 6" [level=2] [ref=e106]
+                - paragraph [ref=e107]: a project with no image
+            - link "project 9 another project with an image 🎉" [ref=e109] [cursor=pointer]:
+              - /url: /projects/9_project/
+              - generic [ref=e110]:
+                - figure [ref=e111]:
+                  - img "project thumbnail" [ref=e113]
+                - generic [ref=e114]:
+                  - heading "project 9" [level=2] [ref=e115]
+                  - paragraph [ref=e116]: another project with an image 🎉
+  - contentinfo [ref=e117]:
+    - generic [ref=e118]:
+      - text: © Copyright 2026 Yining Li. Powered by
+      - link "Jekyll" [ref=e119] [cursor=pointer]:
+        - /url: https://jekyllrb.com/
+      - text: with
+      - link "al-folio" [ref=e120] [cursor=pointer]:
+        - /url: https://github.com/alshedivat/al-folio
+      - text: theme. Hosted by
+      - link "GitHub Pages" [ref=e121] [cursor=pointer]:
+        - /url: https://pages.github.com/
+      - text: . Photos from
+      - link "Unsplash" [ref=e122] [cursor=pointer]:
+        - /url: https://unsplash.com
+      - text: .
+  - img [ref=e124] [cursor=pointer]

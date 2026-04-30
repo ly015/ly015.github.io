@@ -1,0 +1,143 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link "Yining Li" [ref=e4] [cursor=pointer]:
+          - /url: /
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "About" [ref=e8] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e9]:
+            - link "Publications" [ref=e10] [cursor=pointer]:
+              - /url: /publications/
+          - listitem [ref=e11]:
+            - link "Projects (current)" [ref=e12] [cursor=pointer]:
+              - /url: /projects/
+              - text: Projects
+              - generic [ref=e13]: (current)
+          - listitem [ref=e14]:
+            - link "CV" [ref=e15] [cursor=pointer]:
+              - /url: /cv/
+          - listitem [ref=e16]:
+            - button "⌘ k" [ref=e17] [cursor=pointer]:
+              - generic [ref=e18]: ⌘ k
+          - listitem [ref=e20]:
+            - button " " [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]:  
+    - progressbar [ref=e23]
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - heading "AgentLego" [level=1] [ref=e27]
+        - paragraph [ref=e28]: Open-source tool API library to extend and enhance LLM-based agents
+      - article [ref=e29]:
+        - paragraph [ref=e30]:
+          - link "AgentLego" [ref=e31] [cursor=pointer]:
+            - /url: https://github.com/InternLM/agentlego
+          - text: is an open-source tool API library designed to extend the capabilities of LLM-based agents. As part of the
+          - link "InternLM" [ref=e32] [cursor=pointer]:
+            - /url: https://github.com/InternLM
+          - text: ecosystem, it provides a versatile collection of multimodal tools — covering visual perception, image generation, speech processing, and visual-language reasoning — that can be integrated into popular agent frameworks including LangChain, Transformers Agents, and Lagent. Released under the Apache-2.0 license, AgentLego is designed to be both powerful and easy to adopt, with a lightweight tool-wrapping interface and optional remote tool serving for GPU-heavy models.
+        - paragraph [ref=e33]: I led the development of AgentLego at InternLM, designing the tool API and its integrations with major agent frameworks. My work focused on creating a standard interface that allows different models to be plugged in as tools regardless of their underlying implementation or hosting location, and on building the core integration layers that let researchers adopt the library with minimal overhead.
+        - figure [ref=e36]:
+          - img "AgentLego — versatile tools for LLM agents" [ref=e38]
+        - generic [ref=e39]: AgentLego provides a rich, multimodal tool library that LLM-based agents can plug into.
+        - heading "Highlights" [level=2] [ref=e40]
+        - list [ref=e41]:
+          - listitem [ref=e42]:
+            - strong [ref=e43]: Multimodal tool library
+            - text: — visual perception, image generation/editing, speech processing, visual-language reasoning.
+          - listitem [ref=e44]:
+            - strong [ref=e45]: Flexible custom-tool interface
+            - text: — users can wrap their own functions as tools with arbitrary arguments and outputs.
+          - listitem [ref=e46]:
+            - strong [ref=e47]: Plug-and-play framework integration
+            - text: — works with LangChain, Transformers Agents, and Lagent out of the box.
+          - listitem [ref=e48]:
+            - strong [ref=e49]: Tool serving
+            - text: — heavy/GPU models can run on a separate machine and be called remotely by a lightweight agent.
+        - generic [ref=e50]:
+          - figure [ref=e52]:
+            - img "AgentLego logo" [ref=e54]
+          - figure [ref=e56]:
+            - img "Tool-use example output" [ref=e58]
+        - generic [ref=e59]: "Left: AgentLego project logo. Right: an example of an agent invoking AgentLego tools to produce a multimodal answer."
+        - separator [ref=e60]
+        - heading "Multimodal Tool Library" [level=2] [ref=e61]
+        - paragraph [ref=e62]: "AgentLego offers an extensive set of tools that empower agents with multimodal intelligence. These tools are categorized to address different sensory and creative tasks, providing a comprehensive toolkit for building capable AI assistants. Each category is populated with state-of-the-art models that have been pre-wrapped for immediate use:"
+        - list [ref=e63]:
+          - listitem [ref=e64]:
+            - strong [ref=e65]: Visual perception and detection
+            - text: — object detection, image captioning, and OCR. These tools allow agents to understand the content and layout of images and documents.
+          - listitem [ref=e66]:
+            - strong [ref=e67]: Image generation and editing
+            - text: — text-to-image creation and sophisticated image editing. Agents can create new visuals or modify existing ones based on user instructions.
+          - listitem [ref=e68]:
+            - strong [ref=e69]: Speech processing
+            - text: — text-to-speech (TTS) and automatic speech recognition (ASR). This enables voice-based interaction and audio content understanding.
+          - listitem [ref=e70]:
+            - strong [ref=e71]: Visual-language reasoning
+            - text: — visual question answering (VQA) and multimodal dialog. These advanced tools allow for nuanced discussions about visual content.
+        - paragraph [ref=e72]: The integration of these various tools into a unified API is what sets AgentLego apart from other tool collections. By standardizing the way that agents interact with multimodal models, the library reduces the complexity of building sophisticated AI applications. Developers can focus on the high-level logic of their agents, knowing that the underlying tool interactions are handled by a robust and efficient library. This approach also facilitates the sharing and reuse of tools across different projects and frameworks, fostering a more collaborative ecosystem for agent development.
+        - paragraph [ref=e73]:
+          - text: Detailed documentation and a full list of available tools can be found at
+          - link "agentlego.readthedocs.io" [ref=e74] [cursor=pointer]:
+            - /url: https://agentlego.readthedocs.io/en/latest/
+          - text: .
+        - heading "Framework Integration" [level=2] [ref=e75]
+        - paragraph [ref=e76]: A key strength of AgentLego is its seamless compatibility with popular agent frameworks. It provides native support for LangChain, Transformers Agents, and Lagent, allowing developers to enhance their existing agents with minimal effort. The tool wrapping process is intentionally lightweight, employing a simple decorator pattern that makes it easy to convert any Python function into a tool. This flexibility ensures that AgentLego can adapt to diverse research and production environments.
+        - paragraph [ref=e77]: The library also supports tool serving, which is particularly useful when working with heavy GPU models. By separating the model execution from the agent logic, developers can run resource-intensive tools on dedicated servers while maintaining a lightweight agent interface. This architecture simplifies deployment and improves the scalability of agentic systems. We have optimized the communication protocol between the agent and the tool server to ensure low latency and high reliability, even when transmitting large multimodal data like high-resolution images or audio files.
+        - paragraph [ref=e78]: The framework integration layer is also designed to be extensible. Adding support for a new agent framework requires only a thin adapter layer, and community contributions to expand framework coverage are welcome. Supported frameworks and integration guides are maintained in the official documentation.
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - strong [ref=e81]: LangChain
+            - text: — wrap any AgentLego tool as a LangChain
+            - code [ref=e82]: Tool
+            - text: with a single call.
+          - listitem [ref=e83]:
+            - strong [ref=e84]: Transformers Agents
+            - text: — register tools directly with Hugging Face’s agent interface.
+          - listitem [ref=e85]:
+            - strong [ref=e86]: Lagent
+            - text: — native support for the InternLM Lagent framework with zero boilerplate.
+        - paragraph [ref=e87]:
+          - link "Code" [ref=e88] [cursor=pointer]:
+            - /url: https://github.com/InternLM/agentlego
+        - separator [ref=e89]
+        - heading "Resources" [level=2] [ref=e90]
+        - list [ref=e91]:
+          - listitem [ref=e92]:
+            - strong [ref=e93]: "Code:"
+            - link "github.com/InternLM/agentlego" [ref=e94] [cursor=pointer]:
+              - /url: https://github.com/InternLM/agentlego
+          - listitem [ref=e95]:
+            - strong [ref=e96]: "Documentation:"
+            - link "agentlego.readthedocs.io" [ref=e97] [cursor=pointer]:
+              - /url: https://agentlego.readthedocs.io/en/latest/
+          - listitem [ref=e98]:
+            - strong [ref=e99]: "Live demo:"
+            - link "OpenXLab AgentLego app" [ref=e100] [cursor=pointer]:
+              - /url: https://openxlab.org.cn/apps/detail/mzr1996/AgentLego
+          - listitem [ref=e101]:
+            - strong [ref=e102]: "Organization:"
+            - link "InternLM on GitHub" [ref=e103] [cursor=pointer]:
+              - /url: https://github.com/InternLM
+        - paragraph [ref=e104]:
+          - emphasis [ref=e105]: Logo and demo image are reproduced from the official AgentLego repository (Apache-2.0).
+  - contentinfo [ref=e106]:
+    - generic [ref=e107]:
+      - text: © Copyright 2026 Yining Li. Powered by
+      - link "Jekyll" [ref=e108] [cursor=pointer]:
+        - /url: https://jekyllrb.com/
+      - text: with
+      - link "al-folio" [ref=e109] [cursor=pointer]:
+        - /url: https://github.com/alshedivat/al-folio
+      - text: theme. Hosted by
+      - link "GitHub Pages" [ref=e110] [cursor=pointer]:
+        - /url: https://pages.github.com/
+      - text: . Photos from
+      - link "Unsplash" [ref=e111] [cursor=pointer]:
+        - /url: https://unsplash.com
+      - text: .
+  - img [ref=e113] [cursor=pointer]

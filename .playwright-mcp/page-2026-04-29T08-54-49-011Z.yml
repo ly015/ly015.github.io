@@ -1,0 +1,140 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link "Yining Li" [ref=e4] [cursor=pointer]:
+          - /url: /
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link "About" [ref=e8] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e9]:
+            - link "Publications" [ref=e10] [cursor=pointer]:
+              - /url: /publications/
+          - listitem [ref=e11]:
+            - link "Projects (current)" [ref=e12] [cursor=pointer]:
+              - /url: /projects/
+              - text: Projects
+              - generic [ref=e13]: (current)
+          - listitem [ref=e14]:
+            - link "CV" [ref=e15] [cursor=pointer]:
+              - /url: /cv/
+          - listitem [ref=e16]:
+            - button "⌘ k" [ref=e17] [cursor=pointer]:
+              - generic [ref=e18]: ⌘ k
+          - listitem [ref=e20]:
+            - button "Change theme" [ref=e21] [cursor=pointer]:  
+    - progressbar [ref=e23]
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - heading "Projects" [level=1] [ref=e27]
+        - paragraph [ref=e28]: A growing collection of your cool projects.
+      - article [ref=e29]:
+        - generic [ref=e30]:
+          - link "work" [ref=e31] [cursor=pointer]:
+            - /url: .#work
+            - heading "work" [level=2] [ref=e32]
+          - generic [ref=e33]:
+            - link "MMPose OpenMMLab Pose Estimation Toolbox and Benchmark" [ref=e35] [cursor=pointer]:
+              - /url: /projects/mmpose/
+              - generic [ref=e36]:
+                - figure [ref=e37]:
+                  - img "project thumbnail" [ref=e39]
+                - generic [ref=e40]:
+                  - heading "MMPose" [level=2] [ref=e41]
+                  - paragraph [ref=e42]: OpenMMLab Pose Estimation Toolbox and Benchmark
+            - link "project 1 with background image" [ref=e44] [cursor=pointer]:
+              - /url: /projects/1_project/
+              - generic [ref=e45]:
+                - figure [ref=e46]:
+                  - img "project thumbnail" [ref=e48]
+                - generic [ref=e49]:
+                  - heading "project 1" [level=2] [ref=e50]
+                  - paragraph [ref=e51]: with background image
+            - link "project 7 with background image" [ref=e53] [cursor=pointer]:
+              - /url: /projects/7_project/
+              - generic [ref=e54]:
+                - figure [ref=e55]:
+                  - img "project thumbnail" [ref=e57]
+                - generic [ref=e58]:
+                  - heading "project 7" [level=2] [ref=e59]
+                  - paragraph [ref=e60]: with background image
+            - link "AgentLego Open-source tool API library to extend and enhance LLM-based agents" [ref=e62] [cursor=pointer]:
+              - /url: /projects/agentlego/
+              - generic [ref=e63]:
+                - figure [ref=e64]:
+                  - img "project thumbnail" [ref=e66]
+                - generic [ref=e67]:
+                  - heading "AgentLego" [level=2] [ref=e68]
+                  - paragraph [ref=e69]: Open-source tool API library to extend and enhance LLM-based agents
+            - link "project 2 a project with a background image and giscus comments" [ref=e71] [cursor=pointer]:
+              - /url: /projects/2_project/
+              - generic [ref=e72]:
+                - figure [ref=e73]:
+                  - img "project thumbnail" [ref=e75]
+                - generic [ref=e76]:
+                  - heading "project 2" [level=2] [ref=e77]
+                  - paragraph [ref=e78]: a project with a background image and giscus comments
+            - link "project 8 an other project with a background image and giscus comments" [ref=e80] [cursor=pointer]:
+              - /url: /projects/8_project/
+              - generic [ref=e81]:
+                - figure [ref=e82]:
+                  - img "project thumbnail" [ref=e84]
+                - generic [ref=e85]:
+                  - heading "project 8" [level=2] [ref=e86]
+                  - paragraph [ref=e87]: an other project with a background image and giscus comments
+            - link "project 3 with very long name a project that redirects to another website" [ref=e89] [cursor=pointer]:
+              - /url: https://unsplash.com
+              - generic [ref=e90]:
+                - figure [ref=e91]:
+                  - img "project thumbnail" [ref=e93]
+                - generic [ref=e94]:
+                  - heading "project 3 with very long name" [level=2] [ref=e95]
+                  - paragraph [ref=e96]: a project that redirects to another website
+          - link "fun" [ref=e97] [cursor=pointer]:
+            - /url: .#fun
+            - heading "fun" [level=2] [ref=e98]
+          - generic [ref=e99]:
+            - link "project 4 another without an image" [ref=e101] [cursor=pointer]:
+              - /url: /projects/4_project/
+              - generic [ref=e103]:
+                - heading "project 4" [level=2] [ref=e104]
+                - paragraph [ref=e105]: another without an image
+            - link "project 5 a project with a background image" [ref=e107] [cursor=pointer]:
+              - /url: /projects/5_project/
+              - generic [ref=e108]:
+                - figure [ref=e109]:
+                  - img "project thumbnail" [ref=e111]
+                - generic [ref=e112]:
+                  - heading "project 5" [level=2] [ref=e113]
+                  - paragraph [ref=e114]: a project with a background image
+            - link "project 6 a project with no image" [ref=e116] [cursor=pointer]:
+              - /url: /projects/6_project/
+              - generic [ref=e118]:
+                - heading "project 6" [level=2] [ref=e119]
+                - paragraph [ref=e120]: a project with no image
+            - link "project 9 another project with an image 🎉" [ref=e122] [cursor=pointer]:
+              - /url: /projects/9_project/
+              - generic [ref=e123]:
+                - figure [ref=e124]:
+                  - img "project thumbnail" [ref=e126]
+                - generic [ref=e127]:
+                  - heading "project 9" [level=2] [ref=e128]
+                  - paragraph [ref=e129]: another project with an image 🎉
+  - contentinfo [ref=e130]:
+    - generic [ref=e131]:
+      - text: © Copyright 2026 Yining Li. Powered by
+      - link "Jekyll" [ref=e132] [cursor=pointer]:
+        - /url: https://jekyllrb.com/
+      - text: with
+      - link "al-folio" [ref=e133] [cursor=pointer]:
+        - /url: https://github.com/alshedivat/al-folio
+      - text: theme. Hosted by
+      - link "GitHub Pages" [ref=e134] [cursor=pointer]:
+        - /url: https://pages.github.com/
+      - text: . Photos from
+      - link "Unsplash" [ref=e135] [cursor=pointer]:
+        - /url: https://unsplash.com
+      - text: .
+  - img [ref=e137] [cursor=pointer]
