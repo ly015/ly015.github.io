@@ -459,6 +459,11 @@ ninja.data = [{
           description: "Open-source tool API library to extend and enhance LLM-based agents",
           section: "Projects",handler: () => {
               window.location.href = "/projects/agentlego/";
+            },},{id: "projects-gta",
+          title: 'GTA',
+          description: "A hierarchical benchmark for General Tool Agents — from atomic tool-use to open-ended workflows",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gta/";
             },},{id: "projects-mmpose",
           title: 'MMPose',
           description: "OpenMMLab Pose Estimation Toolbox and Benchmark",
