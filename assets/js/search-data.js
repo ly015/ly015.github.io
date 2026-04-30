@@ -454,6 +454,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-agentlego",
+          title: 'AgentLego',
+          description: "Open-source tool API library to extend and enhance LLM-based agents",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/agentlego/";
             },},{id: "projects-mmpose",
           title: 'MMPose',
           description: "OpenMMLab Pose Estimation Toolbox and Benchmark",
@@ -495,7 +500,7 @@ ninja.data = [{
         title: 'X',
         section: 'Socials',
         handler: () => {
-          window.open("https://twitter.com/liyining1228", "_blank");
+          window.open("https://twitter.com/yiningli_", "_blank");
         },
       },{
       id: 'light-theme',
