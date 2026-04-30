@@ -42,7 +42,7 @@ back_to_top: true # set to false to disable the back to top button
 # color_theme: terminal-minimalism # near-black + light gray, bright-green accent
 # color_theme: paper-ink         # pure white + true black, cobalt accent
 # color_theme: solarized         # base3 + base02, canonical Solarized cyan
-color_theme: dusk              # deep slate + warm off-white, muted gold
+color_theme: dusk # deep slate + warm off-white, muted gold
 # color_theme: botanical-tech    # cream + forest green, rust accent
 
 # repo color theme

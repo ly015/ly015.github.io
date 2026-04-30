@@ -5,6 +5,7 @@ description: OpenMMLab Pose Estimation Toolbox and Benchmark
 img: assets/img/projects/mmpose-wholebody.gif
 importance: 0
 category: work
+visible: true
 ---
 
 [MMPose](https://github.com/open-mmlab/mmpose) is an open-source pose estimation toolbox built on PyTorch

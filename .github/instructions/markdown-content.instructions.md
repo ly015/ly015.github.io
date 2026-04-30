@@ -77,6 +77,7 @@ title: Project Name
 description: Short description
 img: /assets/img/project-image.jpg
 importance: 1
+visible: true # set to false to hide from /projects/ listing (direct URL still works)
 ---
 ```
 
@@ -108,6 +109,7 @@ description: Course description
 ### For Projects
 
 - **importance:** Integer (1, 2, 3...) – higher = featured first
+- **visible:** Set to `false` to hide the project from the `/projects/` listing. The individual project page remains accessible. Omitting this field defaults to visible.
 - **img:** Path to thumbnail image (`/assets/img/...`)
 - **featured:** Set to `true` to display on main projects section
 

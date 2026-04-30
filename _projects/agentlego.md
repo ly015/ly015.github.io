@@ -5,6 +5,7 @@ description: Open-source tool API library to extend and enhance LLM-based agents
 img: assets/img/projects/agentlego-hero.png
 importance: 1
 category: work
+visible: true
 ---
 
 [AgentLego](https://github.com/InternLM/agentlego) is an open-source tool API library designed to extend the capabilities of LLM-based agents. As part of the [InternLM](https://github.com/InternLM) ecosystem, it provides a versatile collection of multimodal tools — covering visual perception, image generation, speech processing, and visual-language reasoning — that can be integrated into popular agent frameworks including LangChain, Transformers Agents, and Lagent. Released under the Apache-2.0 license, AgentLego is designed to be both powerful and easy to adopt, with a lightweight tool-wrapping interface and optional remote tool serving for GPU-heavy models.

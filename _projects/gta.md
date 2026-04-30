@@ -5,6 +5,7 @@ description: A hierarchical benchmark for General Tool Agents — from atomic to
 img: assets/img/projects/gta-hero.png
 importance: 2
 category: work
+visible: true
 ---
 
 [GTA](https://github.com/open-compass/GTA) is an open-source benchmark and evaluation framework for **General Tool Agents**, developed as part of the [OpenCompass](https://github.com/open-compass) ecosystem. It bridges two complementary views of tool-using LLM agents in a single repository: short-horizon **atomic tool-use** evaluation and long-horizon **open-ended workflow** evaluation. The original GTA was accepted at **NeurIPS 2024 (Datasets & Benchmarks Track)**, and its successor GTA-2 extends the benchmark to realistic, deliverable-centric agent workflows.

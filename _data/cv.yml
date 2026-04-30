@@ -37,7 +37,7 @@ cv:
         end_date: 2014
 
     Publications:
-      - title: 'MIG: Automatic Data Selection for Instruction Tuning by Maximizing Information Gain in Semantic Space'
+      - title: "MIG: Automatic Data Selection for Instruction Tuning by Maximizing Information Gain in Semantic Space"
         authors:
           - Yicheng Chen
           - Yining Li
@@ -49,7 +49,7 @@ cv:
         releaseDate: 2025
         url: https://arxiv.org/abs/2504.13835
 
-      - title: 'Auto Cherry-Picker: Learning from High-quality Generative Data Driven by Language'
+      - title: "Auto Cherry-Picker: Learning from High-quality Generative Data Driven by Language"
         authors:
           - Yicheng Chen
           - Xiangtai Li
@@ -62,7 +62,7 @@ cv:
         releaseDate: 2025
         url: https://arxiv.org/abs/2406.20085
 
-      - title: 'MotionBooth: Motion-Aware Customized Text-to-Video Generation'
+      - title: "MotionBooth: Motion-Aware Customized Text-to-Video Generation"
         authors:
           - Jianzong Wu
           - Xiangtai Li

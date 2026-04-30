@@ -62,7 +62,7 @@ Here we will give you some tips on how to customize the website. One important t
     - [How it works](#how-it-works)
     - [Configuration](#configuration-1)
     - [Disable related posts for a specific post](#disable-related-posts-for-a-specific-post)
-    - [Additional configuration in _config.yml](#additional-configuration-in-_configyml)
+    - [Additional configuration in \_config.yml](#additional-configuration-in-_configyml)
   - [Managing publication display](#managing-publication-display)
   - [Adding a Google Calendar](#adding-a-google-calendar)
     - [Basic usage](#basic-usage)
@@ -422,6 +422,26 @@ Note that `posts` is also a collection, but it is a default collection created a
 ## Creating new projects
 
 You can create new projects by adding new Markdown files in the [\_projects](_projects/) directory. The easiest way to do this is to copy an existing project and modify it.
+
+#### Hiding a project from the listing
+
+To hide a project from the `/projects/` page without deleting its file, add `visible: false` to the project's front-matter:
+
+```yaml
+---
+layout: page
+title: My Project
+description: Project description
+img: /assets/img/project.jpg
+importance: 1
+category: work
+visible: false
+---
+```
+
+The project's individual page (e.g. `/projects/my-project/`) remains accessible by direct URL, only the listing is filtered. Omitting `visible` defaults to visible (backward-compatible).
+
+> **Note:** Hidden projects still appear in `sitemap.xml` because the page is still generated. Use Jekyll's built-in `published: false` instead if you want the page completely removed from the site.
 
 ## Adding some news
 
