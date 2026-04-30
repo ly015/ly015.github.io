@@ -139,6 +139,16 @@ ul.task-list input[type="checkbox"] {
     img {
       width: 100%;
     }
+
+    // Force a consistent display area on the top thumbnail of every project
+    // card so that the card body (title, description, etc.) aligns across
+    // cards even when the source images have very different aspect ratios.
+    // The image is centered and cropped via object-fit: cover.
+    .card-img-top {
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      object-position: center;
+    }
   }
 
   .col {
