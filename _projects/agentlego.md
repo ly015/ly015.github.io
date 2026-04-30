@@ -3,7 +3,7 @@ layout: page
 title: AgentLego
 description: Open-source tool API library to extend and enhance LLM-based agents
 img: assets/img/projects/agentlego-hero.png
-importance: 1
+importance: 2
 category: work
 visible: true
 ---

@@ -3,7 +3,7 @@ layout: page
 title: GTA
 description: A hierarchical benchmark for General Tool Agents — from atomic tool-use to open-ended workflows
 img: assets/img/projects/gta-hero.png
-importance: 2
+importance: 3
 category: work
 visible: true
 ---
