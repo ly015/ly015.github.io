@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-20'
+  last_updated: '2026-05-22'
 papers:
   y_cp1sUAAAAJ:0EnyYjriUFMC:
     citations: 37
@@ -34,7 +34,7 @@ papers:
     title: 'Mmbench-video: A long-form multi-shot benchmark for holistic video understanding'
     year: '2024'
   y_cp1sUAAAAJ:LkGwnXOMwfcC:
-    citations: 687
+    citations: 688
     title: Internlm2 technical report
     year: '2024'
   y_cp1sUAAAAJ:M3ejUd6NZC8C:
@@ -86,7 +86,7 @@ papers:
     title: 'Internlm-law: An open-sourced chinese legal large language model'
     year: '2025'
   y_cp1sUAAAAJ:_FxGoFyzp5QC:
-    citations: 423
+    citations: 424
     title: 'Internlm-xcomposer2: Mastering free-form text-image composition and comprehension in vision-language large model'
     year: '2024'
   y_cp1sUAAAAJ:_kc_bZDykSQC:
@@ -118,7 +118,7 @@ papers:
     title: 'Internlm-xcomposer2-4khd: A pioneering large vision-language model handling resolutions from 336 pixels to 4k hd'
     year: '2024'
   y_cp1sUAAAAJ:u-x6o8ySG0sC:
-    citations: 1508
+    citations: 1509
     title: Learning deep representation for imbalanced classification
     year: '2016'
   y_cp1sUAAAAJ:u5HHmVD_uO8C:
