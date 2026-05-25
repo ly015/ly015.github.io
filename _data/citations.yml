@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-22'
+  last_updated: '2026-05-25'
 papers:
   y_cp1sUAAAAJ:0EnyYjriUFMC:
-    citations: 37
+    citations: 39
     title: 'Rtmw: Real-time multi-person 2d and 3d whole-body pose estimation'
     year: '2024'
   y_cp1sUAAAAJ:2osOgNQ5qMEC:
-    citations: 261
+    citations: 262
     title: Dense intrinsic appearance flow for human pose transfer
     year: '2019'
   y_cp1sUAAAAJ:4TOpqqG69KYC:
@@ -14,7 +14,7 @@ papers:
     title: 'RouteMoA: Dynamic Routing without Pre-Inference Boosts Efficient Mixture-of-Agents'
     year: '2026'
   y_cp1sUAAAAJ:5nxA0vEk-isC:
-    citations: 50
+    citations: 52
     title: 'GTA: a benchmark for general tool agents'
     year: '2024'
   y_cp1sUAAAAJ:8k81kl-MbHgC:
@@ -26,11 +26,11 @@ papers:
     title: Learning to disambiguate by asking discriminative questions
     year: '2017'
   y_cp1sUAAAAJ:IjCSPb-OGe4C:
-    citations: 582
+    citations: 581
     title: Openmmlab pose estimation toolbox and benchmark
     year: '2020'
   y_cp1sUAAAAJ:KlAtU1dfN6UC:
-    citations: 186
+    citations: 189
     title: 'Mmbench-video: A long-form multi-shot benchmark for holistic video understanding'
     year: '2024'
   y_cp1sUAAAAJ:LkGwnXOMwfcC:
@@ -42,15 +42,15 @@ papers:
     title: 'Kernel-Smith: A Unified Recipe for Evolutionary Kernel Optimization'
     year: '2026'
   y_cp1sUAAAAJ:MXK_kJrjxJIC:
-    citations: 291
+    citations: 292
     title: 'Internlm-xcomposer-2.5: A versatile large vision language model supporting long-contextual input and output'
     year: '2024'
   y_cp1sUAAAAJ:Se3iqnhoufwC:
-    citations: 34
+    citations: 35
     title: 'Mg-llava: Towards multi-granularity visual instruction tuning'
     year: '2025'
   y_cp1sUAAAAJ:Tyk-4Ss8FVUC:
-    citations: 132
+    citations: 133
     title: 'RTMO: Towards High-Performance One-Stage Real-Time Multi-Person Pose Estimation'
     year: '2024'
   y_cp1sUAAAAJ:ULOm3_A8WrAC:
@@ -58,7 +58,7 @@ papers:
     title: 'Mig: Automatic data selection for instruction tuning by maximizing information gain in semantic space'
     year: '2025'
   y_cp1sUAAAAJ:UebtZRa9Y70C:
-    citations: 93
+    citations: 94
     title: 'Motionbooth: Motion-aware customized text-to-video generation'
     year: '2024'
   y_cp1sUAAAAJ:W7OEmFMy1HYC:
@@ -78,15 +78,15 @@ papers:
     title: 'AgentLego: Open-source tool API library to extend and enhance LLM agents'
     year: '2023'
   y_cp1sUAAAAJ:YsMSGLbcyi4C:
-    citations: 121
+    citations: 124
     title: 'Open-vocabulary sam: Segment and recognize twenty-thousand classes interactively'
     year: '2024'
   y_cp1sUAAAAJ:Zph67rFs4hoC:
-    citations: 29
+    citations: 30
     title: 'Internlm-law: An open-sourced chinese legal large language model'
     year: '2025'
   y_cp1sUAAAAJ:_FxGoFyzp5QC:
-    citations: 424
+    citations: 423
     title: 'Internlm-xcomposer2: Mastering free-form text-image composition and comprehension in vision-language large model'
     year: '2024'
   y_cp1sUAAAAJ:_kc_bZDykSQC:
@@ -98,7 +98,7 @@ papers:
     title: 'GTA-2: Benchmarking General Tool Agents from Atomic Tool-Use to Open-Ended Workflows'
     year: '2026'
   y_cp1sUAAAAJ:d1gkVwhDpl0C:
-    citations: 467
+    citations: 466
     title: Deep imbalanced learning for face recognition and attribute prediction
     year: '2019'
   y_cp1sUAAAAJ:eQOLeE2rZwMC:
@@ -118,18 +118,18 @@ papers:
     title: 'Internlm-xcomposer2-4khd: A pioneering large vision-language model handling resolutions from 336 pixels to 4k hd'
     year: '2024'
   y_cp1sUAAAAJ:u-x6o8ySG0sC:
-    citations: 1509
+    citations: 1510
     title: Learning deep representation for imbalanced classification
     year: '2016'
   y_cp1sUAAAAJ:u5HHmVD_uO8C:
-    citations: 223
+    citations: 224
     title: Human attribute recognition by deep hierarchical contexts
     year: '2016'
   y_cp1sUAAAAJ:ufrVoPGSRksC:
-    citations: 16
+    citations: 17
     title: 'Rap-sam: Towards real-time all-purpose segment anything'
     year: '2024'
   y_cp1sUAAAAJ:zYLM7Y9cAGgC:
-    citations: 632
+    citations: 635
     title: 'Rtmpose: Real-time multi-person pose estimation based on mmpose'
     year: '2023'
