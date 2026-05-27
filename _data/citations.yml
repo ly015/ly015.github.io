@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-25'
+  last_updated: '2026-05-27'
 papers:
   y_cp1sUAAAAJ:0EnyYjriUFMC:
     citations: 39
@@ -9,6 +9,10 @@ papers:
     citations: 262
     title: Dense intrinsic appearance flow for human pose transfer
     year: '2019'
+  y_cp1sUAAAAJ:4DMP91E08xMC:
+    citations: 23
+    title: 'RMP-SAM: Towards real-time multi-purpose segment anything'
+    year: '2025'
   y_cp1sUAAAAJ:4TOpqqG69KYC:
     citations: 0
     title: 'RouteMoA: Dynamic Routing without Pre-Inference Boosts Efficient Mixture-of-Agents'
@@ -18,7 +22,7 @@ papers:
     title: 'GTA: a benchmark for general tool agents'
     year: '2024'
   y_cp1sUAAAAJ:8k81kl-MbHgC:
-    citations: 34
+    citations: 35
     title: Efficient llm jailbreak via adaptive dense-to-sparse constrained optimization
     year: '2024'
   y_cp1sUAAAAJ:9yKSN-GCB0IC:
@@ -34,7 +38,7 @@ papers:
     title: 'Mmbench-video: A long-form multi-shot benchmark for holistic video understanding'
     year: '2024'
   y_cp1sUAAAAJ:LkGwnXOMwfcC:
-    citations: 688
+    citations: 690
     title: Internlm2 technical report
     year: '2024'
   y_cp1sUAAAAJ:M3ejUd6NZC8C:
@@ -78,11 +82,11 @@ papers:
     title: 'AgentLego: Open-source tool API library to extend and enhance LLM agents'
     year: '2023'
   y_cp1sUAAAAJ:YsMSGLbcyi4C:
-    citations: 124
+    citations: 123
     title: 'Open-vocabulary sam: Segment and recognize twenty-thousand classes interactively'
     year: '2024'
   y_cp1sUAAAAJ:Zph67rFs4hoC:
-    citations: 30
+    citations: 31
     title: 'Internlm-law: An open-sourced chinese legal large language model'
     year: '2025'
   y_cp1sUAAAAJ:_FxGoFyzp5QC:
@@ -102,7 +106,7 @@ papers:
     title: Deep imbalanced learning for face recognition and attribute prediction
     year: '2019'
   y_cp1sUAAAAJ:eQOLeE2rZwMC:
-    citations: 144
+    citations: 143
     title: 'Omg-seg: Is one model good enough for all segmentation?'
     year: '2024'
   y_cp1sUAAAAJ:hqOjcs7Dif8C:
@@ -118,18 +122,14 @@ papers:
     title: 'Internlm-xcomposer2-4khd: A pioneering large vision-language model handling resolutions from 336 pixels to 4k hd'
     year: '2024'
   y_cp1sUAAAAJ:u-x6o8ySG0sC:
-    citations: 1510
+    citations: 1512
     title: Learning deep representation for imbalanced classification
     year: '2016'
   y_cp1sUAAAAJ:u5HHmVD_uO8C:
     citations: 224
     title: Human attribute recognition by deep hierarchical contexts
     year: '2016'
-  y_cp1sUAAAAJ:ufrVoPGSRksC:
-    citations: 17
-    title: 'Rap-sam: Towards real-time all-purpose segment anything'
-    year: '2024'
   y_cp1sUAAAAJ:zYLM7Y9cAGgC:
-    citations: 635
+    citations: 637
     title: 'Rtmpose: Real-time multi-person pose estimation based on mmpose'
     year: '2023'
