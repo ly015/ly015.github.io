@@ -49,6 +49,17 @@ table.table a {
   }
 }
 
+.news {
+  table.table {
+    color: var(--global-text-color);
+
+    th,
+    td {
+      color: var(--global-text-color);
+    }
+  }
+}
+
 .table-dark {
   background-color: transparent;
   color: var(--global-text-color);

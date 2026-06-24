@@ -17,3 +17,4 @@ vendor
 # User
 .sisyphus
 .playwright-mcp/
+.omo/
