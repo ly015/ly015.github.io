@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-12'
+  last_updated: '2026-07-13'
 papers:
   y_cp1sUAAAAJ:0EnyYjriUFMC:
-    citations: 41
+    citations: 45
     title: 'Rtmw: Real-time multi-person 2d and 3d whole-body pose estimation'
     year: '2024'
   y_cp1sUAAAAJ:2osOgNQ5qMEC:
-    citations: 263
+    citations: 264
     title: Dense intrinsic appearance flow for human pose transfer
     year: '2019'
   y_cp1sUAAAAJ:4DMP91E08xMC:
@@ -14,15 +14,15 @@ papers:
     title: 'RMP-SAM: Towards real-time multi-purpose segment anything'
     year: '2025'
   y_cp1sUAAAAJ:4TOpqqG69KYC:
-    citations: 1
+    citations: 0
     title: 'RouteMoA: Dynamic Routing without Pre-Inference Boosts Efficient Mixture-of-Agents'
     year: '2026'
   y_cp1sUAAAAJ:5nxA0vEk-isC:
-    citations: 57
+    citations: 66
     title: 'GTA: a benchmark for general tool agents'
     year: '2024'
   y_cp1sUAAAAJ:8k81kl-MbHgC:
-    citations: 35
+    citations: 42
     title: Efficient llm jailbreak via adaptive dense-to-sparse constrained optimization
     year: '2024'
   y_cp1sUAAAAJ:9yKSN-GCB0IC:
@@ -30,23 +30,23 @@ papers:
     title: Learning to disambiguate by asking discriminative questions
     year: '2017'
   y_cp1sUAAAAJ:IjCSPb-OGe4C:
-    citations: 589
+    citations: 607
     title: Openmmlab pose estimation toolbox and benchmark
     year: '2020'
   y_cp1sUAAAAJ:KlAtU1dfN6UC:
-    citations: 200
+    citations: 212
     title: 'Mmbench-video: A long-form multi-shot benchmark for holistic video understanding'
     year: '2024'
   y_cp1sUAAAAJ:LkGwnXOMwfcC:
-    citations: 702
+    citations: 723
     title: Internlm2 technical report
     year: '2024'
   y_cp1sUAAAAJ:M3ejUd6NZC8C:
-    citations: 1
-    title: 'Kernel-Smith: A Unified Recipe for Evolutionary Kernel Optimization'
+    citations: 3
+    title: 'Kernel-smith: A unified recipe for evolutionary kernel optimization'
     year: '2026'
   y_cp1sUAAAAJ:MXK_kJrjxJIC:
-    citations: 299
+    citations: 305
     title: 'Internlm-xcomposer-2.5: A versatile large vision language model supporting long-contextual input and output'
     year: '2024'
   y_cp1sUAAAAJ:Se3iqnhoufwC:
@@ -54,27 +54,27 @@ papers:
     title: 'Mg-llava: Towards multi-granularity visual instruction tuning'
     year: '2025'
   y_cp1sUAAAAJ:Tyk-4Ss8FVUC:
-    citations: 134
+    citations: 147
     title: 'RTMO: Towards High-Performance One-Stage Real-Time Multi-Person Pose Estimation'
     year: '2024'
   y_cp1sUAAAAJ:ULOm3_A8WrAC:
-    citations: 11
+    citations: 15
     title: 'Mig: Automatic data selection for instruction tuning by maximizing information gain in semantic space'
     year: '2025'
   y_cp1sUAAAAJ:UebtZRa9Y70C:
-    citations: 100
+    citations: 105
     title: 'Motionbooth: Motion-aware customized text-to-video generation'
     year: '2024'
   y_cp1sUAAAAJ:W7OEmFMy1HYC:
-    citations: 102
+    citations: 104
     title: An open and comprehensive pipeline for unified object grounding and detection
     year: '2024'
   y_cp1sUAAAAJ:WF5omc3nYNoC:
-    citations: 49
+    citations: 52
     title: Towards language-driven video inpainting via multimodal large language models
     year: '2024'
   y_cp1sUAAAAJ:Y0pCki6q_DkC:
-    citations: 21
+    citations: 23
     title: 'Dst-det: Simple dynamic self-training for open-vocabulary object detection'
     year: '2023'
   y_cp1sUAAAAJ:YOwf2qJgpHMC:
@@ -82,15 +82,15 @@ papers:
     title: 'AgentLego: Open-source tool API library to extend and enhance LLM agents'
     year: '2023'
   y_cp1sUAAAAJ:YsMSGLbcyi4C:
-    citations: 129
+    citations: 132
     title: 'Open-vocabulary sam: Segment and recognize twenty-thousand classes interactively'
     year: '2024'
   y_cp1sUAAAAJ:Zph67rFs4hoC:
-    citations: 35
+    citations: 40
     title: 'Internlm-law: An open-sourced chinese legal large language model'
     year: '2025'
   y_cp1sUAAAAJ:_FxGoFyzp5QC:
-    citations: 428
+    citations: 441
     title: 'Internlm-xcomposer2: Mastering free-form text-image composition and comprehension in vision-language large model'
     year: '2024'
   y_cp1sUAAAAJ:_kc_bZDykSQC:
@@ -98,15 +98,15 @@ papers:
     title: 'DataChef: Cooking Up Optimal Data Recipes for LLM Adaptation via Reinforcement Learning'
     year: '2026'
   y_cp1sUAAAAJ:aqlVkmm33-oC:
-    citations: 0
+    citations: 1
     title: 'GTA-2: Benchmarking General Tool Agents from Atomic Tool-Use to Open-Ended Workflows'
     year: '2026'
   y_cp1sUAAAAJ:d1gkVwhDpl0C:
-    citations: 468
+    citations: 467
     title: Deep imbalanced learning for face recognition and attribute prediction
     year: '2019'
   y_cp1sUAAAAJ:eQOLeE2rZwMC:
-    citations: 147
+    citations: 154
     title: 'Omg-seg: Is one model good enough for all segmentation?'
     year: '2024'
   y_cp1sUAAAAJ:hqOjcs7Dif8C:
@@ -118,18 +118,18 @@ papers:
     title: 'TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration'
     year: '2026'
   y_cp1sUAAAAJ:roLk4NBRz8UC:
-    citations: 204
+    citations: 211
     title: 'Internlm-xcomposer2-4khd: A pioneering large vision-language model handling resolutions from 336 pixels to 4k hd'
     year: '2024'
   y_cp1sUAAAAJ:u-x6o8ySG0sC:
-    citations: 1520
+    citations: 1531
     title: Learning deep representation for imbalanced classification
     year: '2016'
   y_cp1sUAAAAJ:u5HHmVD_uO8C:
-    citations: 224
+    citations: 229
     title: Human attribute recognition by deep hierarchical contexts
     year: '2016'
   y_cp1sUAAAAJ:zYLM7Y9cAGgC:
-    citations: 652
+    citations: 690
     title: 'Rtmpose: Real-time multi-person pose estimation based on mmpose'
     year: '2023'
