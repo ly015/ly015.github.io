@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-07-15'
 papers:
   y_cp1sUAAAAJ:0EnyYjriUFMC:
     citations: 45
@@ -30,15 +30,15 @@ papers:
     title: Learning to disambiguate by asking discriminative questions
     year: '2017'
   y_cp1sUAAAAJ:IjCSPb-OGe4C:
-    citations: 607
+    citations: 605
     title: Openmmlab pose estimation toolbox and benchmark
     year: '2020'
   y_cp1sUAAAAJ:KlAtU1dfN6UC:
-    citations: 212
+    citations: 211
     title: 'Mmbench-video: A long-form multi-shot benchmark for holistic video understanding'
     year: '2024'
   y_cp1sUAAAAJ:LkGwnXOMwfcC:
-    citations: 723
+    citations: 724
     title: Internlm2 technical report
     year: '2024'
   y_cp1sUAAAAJ:M3ejUd6NZC8C:
@@ -66,7 +66,7 @@ papers:
     title: 'Motionbooth: Motion-aware customized text-to-video generation'
     year: '2024'
   y_cp1sUAAAAJ:W7OEmFMy1HYC:
-    citations: 104
+    citations: 106
     title: An open and comprehensive pipeline for unified object grounding and detection
     year: '2024'
   y_cp1sUAAAAJ:WF5omc3nYNoC:
@@ -118,11 +118,11 @@ papers:
     title: 'TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration'
     year: '2026'
   y_cp1sUAAAAJ:roLk4NBRz8UC:
-    citations: 211
+    citations: 210
     title: 'Internlm-xcomposer2-4khd: A pioneering large vision-language model handling resolutions from 336 pixels to 4k hd'
     year: '2024'
   y_cp1sUAAAAJ:u-x6o8ySG0sC:
-    citations: 1531
+    citations: 1533
     title: Learning deep representation for imbalanced classification
     year: '2016'
   y_cp1sUAAAAJ:u5HHmVD_uO8C:
@@ -130,6 +130,6 @@ papers:
     title: Human attribute recognition by deep hierarchical contexts
     year: '2016'
   y_cp1sUAAAAJ:zYLM7Y9cAGgC:
-    citations: 690
+    citations: 692
     title: 'Rtmpose: Real-time multi-person pose estimation based on mmpose'
     year: '2023'
