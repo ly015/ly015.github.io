@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-15'
+  last_updated: '2026-08-05'
 papers:
   y_cp1sUAAAAJ:0EnyYjriUFMC:
-    citations: 45
+    citations: 50
     title: 'Rtmw: Real-time multi-person 2d and 3d whole-body pose estimation'
     year: '2024'
   y_cp1sUAAAAJ:2osOgNQ5qMEC:
-    citations: 264
+    citations: 268
     title: Dense intrinsic appearance flow for human pose transfer
     year: '2019'
   y_cp1sUAAAAJ:4DMP91E08xMC:
@@ -18,47 +18,47 @@ papers:
     title: 'RouteMoA: Dynamic Routing without Pre-Inference Boosts Efficient Mixture-of-Agents'
     year: '2026'
   y_cp1sUAAAAJ:5nxA0vEk-isC:
-    citations: 66
+    citations: 71
     title: 'GTA: a benchmark for general tool agents'
     year: '2024'
   y_cp1sUAAAAJ:8k81kl-MbHgC:
-    citations: 42
+    citations: 44
     title: Efficient llm jailbreak via adaptive dense-to-sparse constrained optimization
     year: '2024'
   y_cp1sUAAAAJ:9yKSN-GCB0IC:
-    citations: 32
+    citations: 33
     title: Learning to disambiguate by asking discriminative questions
     year: '2017'
   y_cp1sUAAAAJ:IjCSPb-OGe4C:
-    citations: 605
+    citations: 616
     title: Openmmlab pose estimation toolbox and benchmark
     year: '2020'
   y_cp1sUAAAAJ:KlAtU1dfN6UC:
-    citations: 211
+    citations: 218
     title: 'Mmbench-video: A long-form multi-shot benchmark for holistic video understanding'
     year: '2024'
   y_cp1sUAAAAJ:LkGwnXOMwfcC:
-    citations: 724
+    citations: 734
     title: Internlm2 technical report
     year: '2024'
   y_cp1sUAAAAJ:M3ejUd6NZC8C:
-    citations: 3
+    citations: 5
     title: 'Kernel-smith: A unified recipe for evolutionary kernel optimization'
     year: '2026'
   y_cp1sUAAAAJ:MXK_kJrjxJIC:
-    citations: 305
+    citations: 303
     title: 'Internlm-xcomposer-2.5: A versatile large vision language model supporting long-contextual input and output'
     year: '2024'
   y_cp1sUAAAAJ:Se3iqnhoufwC:
-    citations: 35
+    citations: 34
     title: 'Mg-llava: Towards multi-granularity visual instruction tuning'
     year: '2025'
   y_cp1sUAAAAJ:Tyk-4Ss8FVUC:
-    citations: 147
+    citations: 154
     title: 'RTMO: Towards High-Performance One-Stage Real-Time Multi-Person Pose Estimation'
     year: '2024'
   y_cp1sUAAAAJ:ULOm3_A8WrAC:
-    citations: 15
+    citations: 16
     title: 'Mig: Automatic data selection for instruction tuning by maximizing information gain in semantic space'
     year: '2025'
   y_cp1sUAAAAJ:UebtZRa9Y70C:
@@ -66,11 +66,11 @@ papers:
     title: 'Motionbooth: Motion-aware customized text-to-video generation'
     year: '2024'
   y_cp1sUAAAAJ:W7OEmFMy1HYC:
-    citations: 106
+    citations: 112
     title: An open and comprehensive pipeline for unified object grounding and detection
     year: '2024'
   y_cp1sUAAAAJ:WF5omc3nYNoC:
-    citations: 52
+    citations: 55
     title: Towards language-driven video inpainting via multimodal large language models
     year: '2024'
   y_cp1sUAAAAJ:Y0pCki6q_DkC:
@@ -82,15 +82,15 @@ papers:
     title: 'AgentLego: Open-source tool API library to extend and enhance LLM agents'
     year: '2023'
   y_cp1sUAAAAJ:YsMSGLbcyi4C:
-    citations: 132
+    citations: 133
     title: 'Open-vocabulary sam: Segment and recognize twenty-thousand classes interactively'
     year: '2024'
   y_cp1sUAAAAJ:Zph67rFs4hoC:
-    citations: 40
+    citations: 43
     title: 'Internlm-law: An open-sourced chinese legal large language model'
     year: '2025'
   y_cp1sUAAAAJ:_FxGoFyzp5QC:
-    citations: 441
+    citations: 443
     title: 'Internlm-xcomposer2: Mastering free-form text-image composition and comprehension in vision-language large model'
     year: '2024'
   y_cp1sUAAAAJ:_kc_bZDykSQC:
@@ -102,11 +102,11 @@ papers:
     title: 'GTA-2: Benchmarking General Tool Agents from Atomic Tool-Use to Open-Ended Workflows'
     year: '2026'
   y_cp1sUAAAAJ:d1gkVwhDpl0C:
-    citations: 467
+    citations: 471
     title: Deep imbalanced learning for face recognition and attribute prediction
     year: '2019'
   y_cp1sUAAAAJ:eQOLeE2rZwMC:
-    citations: 154
+    citations: 153
     title: 'Omg-seg: Is one model good enough for all segmentation?'
     year: '2024'
   y_cp1sUAAAAJ:hqOjcs7Dif8C:
@@ -118,18 +118,18 @@ papers:
     title: 'TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration'
     year: '2026'
   y_cp1sUAAAAJ:roLk4NBRz8UC:
-    citations: 210
+    citations: 212
     title: 'Internlm-xcomposer2-4khd: A pioneering large vision-language model handling resolutions from 336 pixels to 4k hd'
     year: '2024'
   y_cp1sUAAAAJ:u-x6o8ySG0sC:
-    citations: 1533
+    citations: 1535
     title: Learning deep representation for imbalanced classification
     year: '2016'
   y_cp1sUAAAAJ:u5HHmVD_uO8C:
-    citations: 229
+    citations: 227
     title: Human attribute recognition by deep hierarchical contexts
     year: '2016'
   y_cp1sUAAAAJ:zYLM7Y9cAGgC:
-    citations: 692
+    citations: 693
     title: 'Rtmpose: Real-time multi-person pose estimation based on mmpose'
     year: '2023'
