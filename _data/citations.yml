@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-07'
 papers:
   y_cp1sUAAAAJ:0EnyYjriUFMC:
     citations: 50
@@ -38,7 +38,7 @@ papers:
     title: 'Mmbench-video: A long-form multi-shot benchmark for holistic video understanding'
     year: '2024'
   y_cp1sUAAAAJ:LkGwnXOMwfcC:
-    citations: 734
+    citations: 735
     title: Internlm2 technical report
     year: '2024'
   y_cp1sUAAAAJ:M3ejUd6NZC8C:
@@ -46,7 +46,7 @@ papers:
     title: 'Kernel-smith: A unified recipe for evolutionary kernel optimization'
     year: '2026'
   y_cp1sUAAAAJ:MXK_kJrjxJIC:
-    citations: 303
+    citations: 304
     title: 'Internlm-xcomposer-2.5: A versatile large vision language model supporting long-contextual input and output'
     year: '2024'
   y_cp1sUAAAAJ:Se3iqnhoufwC:
@@ -102,7 +102,7 @@ papers:
     title: 'GTA-2: Benchmarking General Tool Agents from Atomic Tool-Use to Open-Ended Workflows'
     year: '2026'
   y_cp1sUAAAAJ:d1gkVwhDpl0C:
-    citations: 471
+    citations: 472
     title: Deep imbalanced learning for face recognition and attribute prediction
     year: '2019'
   y_cp1sUAAAAJ:eQOLeE2rZwMC:
