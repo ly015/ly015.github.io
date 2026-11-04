@@ -1,5 +1,5 @@
 {% comment %}
-  Unified projects entry renderer for both formats
+  Named entries with optional dates, summaries, and highlights (projects and professional activities)
 {% endcomment %}
 
 <ul class="card-text font-weight-light list-group list-group-flush">
@@ -11,6 +11,10 @@
         </h6>
       {% else %}
         <h6 class="title font-weight-bold">{{ entry.name }}</h6>
+      {% endif %}
+
+      {% if entry.date %}
+        <p class="mb-2">{{ entry.date }}</p>
       {% endif %}
 
       {% if entry.summary %}

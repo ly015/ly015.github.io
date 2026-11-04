@@ -1,37 +1,26 @@
 cv:
   name: Yining Li
-  label: Research Scientist
-  email: liyining@pjlab.org.cn
+  label: Research Scientist · LLM Post-training · Agentic Systems
+  email: liyining0712@gmail.com
+  phone: (+86) 177-1732-2354
+  website: https://liyn.site
   location: Shanghai, China
-  image: ""
-  summary: Research scientist at Shanghai AI Laboratory, leading a team focused on LLM post-training and AI-for-AI. Co-led SFT for InternLM 2/2.5/3 and led agentic coding post-training for Atria Dawn. Research spans training-data pipelines and agentic systems for automated model development and experimentation. Previously led MMPose development as a core contributor to OpenMMLab.
+  summary: Research scientist at Shanghai AI Laboratory, leading a team focused on LLM post-training and AI-for-AI. Co-led SFT for InternLM 2/2.5/3 and led agentic coding post-training for Atria Dawn. Research spans training-data pipelines and agentic systems for automated model development and experimentation. Previously led MMPose development as a core contributor to OpenMMLab. Ph.D., CUHK (MMLab).
 
   social_networks:
     - network: GitHub
       username: ly015
+      url: https://github.com/ly015
+    - network: Google Scholar
+      username: Yining Li
+      url: https://scholar.google.com/citations?user=y_cp1sUAAAAJ
 
   sections:
-    Experience:
-      - company: Shanghai AI Laboratory
-        position: Research Scientist
-        location: Shanghai, China
-        start_date: 2021-11
-        end_date: present
-        url: https://www.shlab.org.cn/
-        summary: Lead a research team focused on LLM post-training, training data, and autonomous AI R&D. Co-led SFT for InternLM 2/2.5/3 and led agentic coding post-training for Atria Dawn. Previously led MMPose development and served as a core maintainer of OpenMMLab.
-
-      - company: SenseTime
-        position: Research Scientist
-        location: Shanghai, China
-        start_date: 2019-09
-        end_date: 2021-11
-        summary: Developed perception and scene-understanding models for autonomous driving. Led two Honda-sponsored R&D projects covering hazard prediction, object-attribute perception, and human-vehicle interaction.
-
     Education:
       - institution: The Chinese University of Hong Kong
         url: https://www.cuhk.edu.hk/
         area: Information Engineering, MMLab
-        studyType: PhD
+        studyType: Ph.D.
         location: Hong Kong, China
         start_date: 2015-08
         end_date: 2019-09
@@ -41,56 +30,102 @@ cv:
       - institution: Tsinghua University
         url: https://www.tsinghua.edu.cn/
         area: Automation
-        studyType: BS
+        studyType: B.S.
         location: Beijing, China
         start_date: 2010-09
         end_date: 2014-07
 
-    Publications:
-      - title: "MIG: Automatic Data Selection for Instruction Tuning by Maximizing Information Gain in Semantic Space"
-        authors:
-          - Yicheng Chen
-          - Yining Li
-          - Kai Hu
-          - Zerun Ma
-          - Haochen Ye
-          - Kai Chen
-        publisher: ACL Findings
-        releaseDate: 2025
-        url: https://arxiv.org/abs/2504.13835
+    Work Experience:
+      - company: Shanghai Artificial Intelligence Laboratory
+        position: Research Scientist
+        location: Shanghai, China
+        start_date: 2021-11
+        end_date: present
+        url: https://www.shlab.org.cn/
+        highlights:
+          - Lead a research team focused on LLM post-training, training data, and autonomous AI R&D, setting research priorities and coordinating training, evaluation, and model releases.
+          - Co-led SFT for InternLM 2/2.5/3 and led agentic coding post-training for Atria Dawn, covering data pipelines and model fine-tuning.
+          - Previously led MMPose development and served as a core maintainer of OpenMMLab.
 
-      - title: "Auto Cherry-Picker: Learning from High-quality Generative Data Driven by Language"
-        authors:
-          - Yicheng Chen
-          - Xiangtai Li
-          - Yining Li
-          - Yanhong Zeng
-          - Jianzong Wu
-          - Xiangyu Zhao
-          - Kai Chen
-        publisher: CVPR
-        releaseDate: 2025
-        url: https://arxiv.org/abs/2406.20085
+      - company: SenseTime
+        position: Research Scientist
+        location: Shanghai, China
+        start_date: 2019-09
+        end_date: 2021-11
+        highlights:
+          - Developed perception and scene-understanding models for autonomous driving, including risk prediction and human-vehicle interaction.
+          - Led two Honda-sponsored R&D projects, delivering three algorithmic solutions for hazard prediction, object-attribute perception, and human-vehicle interaction.
 
-      - title: "MotionBooth: Motion-Aware Customized Text-to-Video Generation"
-        authors:
-          - Jianzong Wu
-          - Xiangtai Li
-          - Yanhong Zeng
-          - Jiangning Zhang
-          - Qianyu Zhou
-          - Yining Li
-          - Yunhai Tong
-          - Kai Chen
-        publisher: NeurIPS (Spotlight)
-        releaseDate: 2024
-        url: https://arxiv.org/abs/2406.17758
+    Projects:
+      - name: LLM Post-training for Coding and Alignment
+        date: 2023 - Present
+        highlights:
+          - >-
+            **Atria Dawn post-training for coding.** Led post-training of Atria Dawn LLM on coding capabilities across software-engineering, terminal-use, and NL2Repo tasks; developed training-data pipelines and fine-tuned models built on GLM-5.2. [Project](https://atria-asi.ai/)
+          - >-
+            **InternLM 2/2.5/3: supervised fine-tuning.** Co-led SFT for the InternLM series, focusing on instruction following, response quality, style consistency, and long-context reliability. [Project](https://github.com/InternLM/InternLM)
+          - >-
+            **SFT data infrastructure.** Led development of LLM post-training data infrastructure spanning agent trajectory generation, SFT data curation, and high-quality response synthesis and evolution.
 
-      - title: Dense Intrinsic Appearance Flow for Human Pose Transfer
-        authors:
-          - Yining Li
-          - Chen Huang
-          - Chen Change Loy
-        publisher: CVPR
-        releaseDate: 2019
-        url: https://arxiv.org/abs/1903.11326
+      - name: Autonomous AI-R&D Systems
+        date: 2025 - 2026
+        highlights:
+          - >-
+            **TREX: automated LLM fine-tuning.** Led TREX, a multi-agent system that automates LLM fine-tuning through tree-based experimental search, from research planning and data preparation to training and evaluation. Introduced FT-Bench with 10 real-world fine-tuning tasks. Demonstrated competitive model-performance gains relative to published expert-designed pipelines on TOMG-Bench and OpenFinData. [Project](https://liyn.site/projects/trex/)
+          - >-
+            **Kernel-Smith: evolutionary kernel optimization.** Contributed to Kernel-Smith's evolutionary kernel-optimization framework, developing agents and training models for kernel optimization on NVIDIA and MetaX accelerators. [Paper](https://arxiv.org/abs/2603.28342) · [Code](https://github.com/InternLM/Kernel-Smith)
+
+      - name: Data Centric AI-for-AI
+        date: 2024 - 2026
+        highlights:
+          - >-
+            **DataChef: RL-generated data recipes.** Developed DataChef to generate executable SFT data recipes and trained its 8B/32B models with GRPO. Designed a low-cost proxy reward that bypasses downstream training and correlates better with downstream performance than standard data-quality metrics on average (mean Pearson r = 0.59). Demonstrated substantial gains in recipe generation across 6 tasks, including coding, math, and physics. [Paper](https://arxiv.org/abs/2602.11089) · [Code](https://github.com/yichengchen24/DataChef)
+          - >-
+            **MIG: efficient instruction-data curation.** Developed MIG, an information-gain-based method for instruction-data selection that balances quality and diversity; achieved performance comparable to full-data SFT using 5% of Tulu 3 training data in the reported evaluation setting. [Project](https://yichengchen24.github.io/projects/mig/)
+          - >-
+            **Auto Cherry-Picker: synthetic data for multimodal training.** Developed Auto Cherry-Picker, a synthetic-data framework combining language and diffusion models for downstream perception and reasoning tasks. [Project](https://yichengchen24.github.io/projects/autocherrypicker/)
+
+      - name: "Tool-Use Agents: Benchmarks & Frameworks"
+        date: 2023 - 2025
+        highlights:
+          - >-
+            **GTA/GTA-2: general tool-agent benchmarks.** Designed GTA/GTA-2 benchmarks and evaluation pipelines for multimodal tool-use agents, spanning atomic tool use and open-ended workflows, with checkpoint-based evaluation of task completion. [Project](https://github.com/open-compass/GTA)
+          - >-
+            **AgentLego: multimodal tool API library.** Led development of AgentLego, a multimodal tool API library covering visual perception, image generation and editing, speech, and visual question answering, with integrations for Transformers Agents and Visual ChatGPT. [Code](https://github.com/InternLM/agentlego)
+
+      - name: Open-Source Leadership
+        date: 2021 - 2024
+        highlights:
+          - >-
+            **OpenMMLab core development and research leadership.** Served as a core maintainer of OpenMMLab, developing the data pipeline module for its 2.0 architecture. Led research on open-vocabulary perception within the OpenMMLab ecosystem. [Project](https://github.com/open-mmlab)
+          - >-
+            **MMPose: open-source pose estimation toolbox.** Led development of MMPose, a pose-estimation toolbox with 7.9k GitHub stars, supporting 30+ algorithms, 35+ datasets, modular pipelines, and cross-platform deployment. [Project](https://github.com/open-mmlab/mmpose)
+          - >-
+            **RTMPose family: production-ready real-time pose estimation.** Developed and released a family of real-time models for 2D/3D body pose, crowded-scene pose, and whole-body keypoint estimation. Widely deployed in industry and used as a foundational pose extractor in AIGC systems (Animate Anyone, sd-webui-ControlNet, T2I Adapter). [Project](https://github.com/open-mmlab/mmpose/tree/main/projects/rtmpose)
+
+    Honors:
+      - title: Shanghai Oriental Talent Program
+        date: 2025
+        summary: Top Talent Project
+      - title: Shanghai Rising-Star Program
+        date: 2022
+        summary: Category A (Academic Research)
+
+    Professional Activities:
+      - name: Academic Appointments
+        highlights:
+          - Adjunct Supervisor, Shanghai Jiao Tong University (2025 - Present)
+          - Adjunct Supervisor, Shanghai Innovation Institute (2024 - 2025)
+
+      - name: Service
+        highlights:
+          - "Conference Reviewer: CVPR, ECCV, ICLR, AAAI, NeurIPS, ACL, and COLM."
+          - "Thesis Reviewer: Invited reviewer for doctoral and master's theses in China."
+
+      - name: Invited Talks
+        highlights:
+          - Introduction to Large Language Models — Shanghai Jiao Tong University, 2025.
+          - Introduction to InternLM — Shanghai Municipal Commission of Economy and Informatization, 2025.
+          - Data Efficiency in LLM Post-training — Shanghai Innovation Institute, 2024.
+          - Recent Research Highlights from OpenMMLab — SenseTime, 2024.
+          - Fundamentals of Computer Vision and Human Pose Estimation — Shanghai Jiao Tong University, 2023.
