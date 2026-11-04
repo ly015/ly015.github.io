@@ -1,15 +1,8 @@
 name: Render a CV
+# The site links to the manually uploaded assets/pdf/Yining_Li_Resume.pdf.
+# Changes to _data/cv.yml update the web CV without generating a PDF.
+# Keep this optional generator available only for explicit manual runs.
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
-  workflow_call:
   workflow_dispatch:
 permissions:
   contents: write
