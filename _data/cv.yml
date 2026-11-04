@@ -1,10 +1,10 @@
 cv:
   name: Yining Li
-  label: Researcher
+  label: Research Scientist
   email: liyining@pjlab.org.cn
   location: Shanghai, China
   image: ""
-  summary: Researcher at Shanghai AI Laboratory and a member of the InternLM team. Research interests include large language models, post-training, agentic systems, and human-centric computer vision.
+  summary: Research scientist at Shanghai AI Laboratory, leading a team focused on LLM post-training and AI-for-AI. Co-led SFT for InternLM 2/2.5/3 and led agentic coding post-training for Atria Dawn. Research spans training-data pipelines and agentic systems for automated model development and experimentation. Previously led MMPose development as a core contributor to OpenMMLab.
 
   social_networks:
     - network: GitHub
@@ -13,28 +13,38 @@ cv:
   sections:
     Experience:
       - company: Shanghai AI Laboratory
-        position: Researcher
+        position: Research Scientist
         location: Shanghai, China
+        start_date: 2021-11
+        end_date: present
         url: https://www.shlab.org.cn/
-        summary: Member of the InternLM team. Focus on large language models, especially post-training and agentic systems. Core member of OpenMMLab since 2021, leading development of MMPose and MMAction2.
+        summary: Lead a research team focused on LLM post-training, training data, and autonomous AI R&D. Co-led SFT for InternLM 2/2.5/3 and led agentic coding post-training for Atria Dawn. Previously led MMPose development and served as a core maintainer of OpenMMLab.
 
       - company: SenseTime
         position: Research Scientist
-        summary: Worked on environment perception for autonomous driving before joining Shanghai AI Laboratory.
+        location: Shanghai, China
+        start_date: 2019-09
+        end_date: 2021-11
+        summary: Developed perception and scene-understanding models for autonomous driving. Led two Honda-sponsored R&D projects covering hazard prediction, object-attribute perception, and human-vehicle interaction.
 
     Education:
       - institution: The Chinese University of Hong Kong
         url: https://www.cuhk.edu.hk/
-        area: Computer Vision and Machine Learning
+        area: Information Engineering, MMLab
         studyType: PhD
-        end_date: 2019
-        summary: MMLab. Supervised by Prof. Chen Change Loy and Prof. Xiaoou Tang.
+        location: Hong Kong, China
+        start_date: 2015-08
+        end_date: 2019-09
+        highlights:
+          - "Advisors: Prof. Chen Change Loy and Prof. Xiaoou Tang."
 
       - institution: Tsinghua University
         url: https://www.tsinghua.edu.cn/
-        area: Computer Science
+        area: Automation
         studyType: BS
-        end_date: 2014
+        location: Beijing, China
+        start_date: 2010-09
+        end_date: 2014-07
 
     Publications:
       - title: "MIG: Automatic Data Selection for Instruction Tuning by Maximizing Information Gain in Semantic Space"
