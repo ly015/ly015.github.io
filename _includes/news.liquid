@@ -1,6 +1,18 @@
 <div class="news">
-  {% if site.news != blank %}
-    {% assign news_size = site.news | size %}
+  {% assign news = site.news | sort: 'date' | reverse %}
+  {% if include.limit and page.announcements.min_year %}
+    {% assign min_year = page.announcements.min_year | plus: 0 %}
+    {% assign filtered_news = '' | split: ',' %}
+    {% for item in news %}
+      {% assign item_year = item.date | date: '%Y' | plus: 0 %}
+      {% if item_year >= min_year %}
+        {% assign filtered_news = filtered_news | push: item %}
+      {% endif %}
+    {% endfor %}
+    {% assign news = filtered_news %}
+  {% endif %}
+  {% assign news_size = news | size %}
+  {% if news_size > 0 %}
     <div
       class="table-responsive"
       {% if include.limit and page.announcements.scrollable and news_size > 3 %}
@@ -8,7 +20,6 @@
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
         {% if include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
         {% else %}

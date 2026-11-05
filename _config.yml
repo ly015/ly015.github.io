@@ -116,10 +116,10 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -146,17 +146,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+external_sources: [] # Do not import the template's example blog feeds.
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -173,7 +163,7 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
@@ -181,7 +171,7 @@ collections:
   projects:
     output: true
   teachings:
-    output: true
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -218,6 +208,26 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  # Keep template examples in the repository without publishing them.
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/dropdown.md
+  - _pages/profiles.md
+  - _pages/repositories.md
+  - _pages/teaching.md
+  - _posts/
+  - _books/
+  - _teachings/
+  - _projects/?_project.md
+  - assets/audio/epicaly-short-113909.mp3
+  - assets/html/relativity.html
+  - assets/json/resume.json
+  - assets/json/table_data.json
+  - assets/jupyter/blog.ipynb
+  - assets/pdf/example_pdf.pdf
+  - assets/plotly/demo.html
+  - assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4
+  - assets/video/tutorial_al_folio.mp4
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -281,13 +291,13 @@ terser:
 
 jekyll-archives:
   posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [] # Disabled while the example blog is excluded.
     permalinks:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
   books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [] # Disabled while the example bookshelf is excluded.
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
@@ -672,9 +682,7 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+jekyll_get_json: [] # The site uses the uploaded PDF instead of the example JSONResume.
 
 jsonresume:
   - basics
